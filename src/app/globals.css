@@ -654,6 +654,32 @@ h3 {
   color: var(--muted);
 }
 
+.legal-content {
+  max-width: 780px;
+}
+
+.legal-content h2 {
+  margin-top: 42px;
+  margin-bottom: 14px;
+  font-size: clamp(1.45rem, 3vw, 2rem);
+}
+
+.legal-content p {
+  color: var(--muted);
+}
+
+.legal-content a {
+  color: var(--teal);
+  font-weight: 700;
+  text-decoration: underline;
+  text-underline-offset: 0.2em;
+}
+
+.legal-updated {
+  margin-top: 48px;
+  font-size: 0.85rem;
+}
+
 .story-copy .text-link {
   margin-top: 8px;
 }

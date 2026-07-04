@@ -64,7 +64,11 @@ export function Footer() {
       </div>
       <div className="site-container footer-bottom">
         <p>© {new Date().getFullYear()} Healing Hands Network</p>
-        <p>Parallel website prototype — content subject to charity approval.</p>
+        <p>
+          <Link href="/privacy">Privacy</Link>
+          <span aria-hidden="true"> · </span>
+          Parallel website prototype — content subject to charity approval.
+        </p>
       </div>
     </footer>
   );

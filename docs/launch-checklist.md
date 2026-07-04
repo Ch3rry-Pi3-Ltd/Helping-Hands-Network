@@ -123,8 +123,8 @@ stakeholder agreement.
       whether privacy-respecting referral or conversion measurement is needed.
 - [ ] Set up or review Google Search Console after the production domain is
       approved.
-- [ ] Decide whether analytics is necessary and complete the required privacy,
-      consent and data-retention review before adding it.
+- [x] Add privacy-respecting, cookie-free Vercel Web Analytics for aggregate
+      usage information and publish a plain-English privacy notice.
 - [ ] Consider organisation structured data and an impact page once the
       underlying facts and reporting process are approved.
 - [ ] Assess Google for Nonprofits, Google Ad Grants, Canva for Nonprofits and
