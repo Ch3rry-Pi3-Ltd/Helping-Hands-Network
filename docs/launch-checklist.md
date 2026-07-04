@@ -71,24 +71,30 @@ These items block publication of the affected content.
 - [ ] Run `npm install` from a clean checkout.
 - [x] Run `npm run lint`.
 - [x] Run `npm run typecheck`.
-- [ ] Run `npm run build` using the intended production environment value.
+- [x] Run `npm run build` using the intended production environment value.
 - [ ] Test all pages at mobile, tablet and desktop widths.
 - [ ] Test navigation, links and controls using only a keyboard.
 - [ ] Check visible focus states, heading order, landmarks, colour contrast and
       screen-reader names.
 - [ ] Verify every image has approved, useful alternative text.
 - [ ] Check every internal, email, telephone, social and fundraising link.
-- [ ] Verify canonical URLs, Open Graph previews, `robots.txt` and
-      `sitemap.xml` use the approved production URL.
-- [ ] Confirm that no secrets, private records or live-system credentials are
+- [x] Verify deployed canonical and Open Graph URLs, `robots.txt` and
+      `sitemap.xml` use the approved Vercel URL wherever currently generated.
+- [ ] Add homepage-specific canonical and Open Graph metadata, then validate
+      its social preview.
+- [x] Confirm that no secrets, private records or live-system credentials are
       present in the repository or deployment configuration.
 
 ## Git and Vercel preview
 
+Current Vercel URL:
+[helping-hands-network.vercel.app](https://helping-hands-network.vercel.app/).
+
 - [x] Put the project in an approved Git repository.
-- [ ] Import that repository into Vercel using the Next.js framework preset.
-- [ ] Add `NEXT_PUBLIC_SITE_URL` to the Vercel environment configuration.
-- [ ] Deploy and review a Vercel preview.
+- [x] Import that repository into Vercel using the Next.js framework preset.
+- [x] Add `NEXT_PUBLIC_SITE_URL` to the Production, Preview and Development
+      Vercel environments.
+- [x] Deploy and review a Vercel preview.
 - [ ] Complete stakeholder review on the preview and record approval.
 - [ ] Resolve all review findings and repeat the quality checks.
 
@@ -102,6 +108,36 @@ These items block publication of the affected content.
       routes on the live domain.
 - [ ] Monitor the live site after launch and retain a tested rollback route.
 
+## Proposal-led roadmap
+
+These ideas come from the Digital, Data and AI Opportunity Review. They are
+not blockers for the website preview or initial launch and require separate
+stakeholder agreement.
+
+- [ ] Agree a simple impact-data template, update process and responsible data
+      owner before publishing statistics or impact summaries.
+- [ ] Map each approved donation route to its intended purpose and decide
+      whether privacy-respecting referral or conversion measurement is needed.
+- [ ] Set up or review Google Search Console after the production domain is
+      approved.
+- [ ] Decide whether analytics is necessary and complete the required privacy,
+      consent and data-retention review before adding it.
+- [ ] Consider organisation structured data and an impact page once the
+      underlying facts and reporting process are approved.
+- [ ] Assess Google for Nonprofits, Google Ad Grants, Canva for Nonprofits and
+      Charity Digital against current eligibility and administrative capacity.
+- [ ] Define a sustainable website, social-media and email update workflow with
+      named human approval.
+- [ ] Complete an AI and data-protection policy before using AI-assisted admin,
+      reporting or public-content workflows.
+- [ ] Scope any volunteer or membership tracker around data minimisation,
+      access control, retention, safeguarding and human decision-making.
+- [ ] Consider a grant-opportunity and application workflow only after impact
+      evidence and reusable organisational information are maintained
+      reliably.
+- [ ] Treat any FAQ assistant as a later, tightly bounded project that cannot
+      provide medical, therapy, PTSD or crisis advice.
+
 ## Explicitly out of scope without separate approval
 
 - Modifying or deleting the existing WordPress website.
@@ -112,5 +148,6 @@ These items block publication of the affected content.
 ## Supporting documents
 
 - [Project brief](project-brief.md)
+- [Digital, Data and AI Opportunity Review](<HHN - Digital, Data, and AI Opportunity Review.pdf>)
 - [Existing website audit](../AUDIT.md)
 - [Development and deployment guide](../README.md)

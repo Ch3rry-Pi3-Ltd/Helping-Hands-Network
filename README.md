@@ -46,6 +46,9 @@ The main content to update is in `src/content/site.ts`. Longer page copy lives b
 
 - [`docs/project-brief.md`](docs/project-brief.md) — the agreed project scope
   and requirements.
+- [`docs/HHN - Digital, Data, and AI Opportunity Review.pdf`](<docs/HHN - Digital, Data, and AI Opportunity Review.pdf>) —
+  the proposal shared with the charity and an approximate guide for priorities
+  beyond the website launch.
 - [`AUDIT.md`](AUDIT.md) — findings from the review of the existing public
   website.
 - [`docs/launch-checklist.md`](docs/launch-checklist.md) — the authoritative

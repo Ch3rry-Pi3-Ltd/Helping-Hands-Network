@@ -2,6 +2,32 @@
 
 This document records the original brief for the parallel website prototype.
 
+## Relationship to the proposal
+
+The
+[Digital, Data and AI Opportunity Review](<HHN - Digital, Data, and AI Opportunity Review.pdf>)
+was shared with the charity before this implementation and acts as an
+approximate strategic guide. It is not a fixed delivery contract: individual
+ideas still require stakeholder approval, current information, appropriate
+system access and proportionate privacy and safeguarding review.
+
+This website phase directly supports the proposal's recommendations for a
+light-touch website refresh, clearer donation journeys, dedicated programme
+pages, improved search foundations and maintainable content. Broader ideas
+such as impact-data systems, analytics, social scheduling, AI-assisted
+administration, volunteer tracking and grant workflows are recorded as
+separately scoped roadmap items in the
+[launch checklist](launch-checklist.md).
+
+The proposal's governing principles apply throughout:
+
+- Preserve the charity's character and existing mission.
+- Reduce Susan's and the volunteers' administrative burden.
+- Prefer proportionate, low-cost and maintainable tools.
+- Keep public claims evidence-based and approved.
+- Keep humans responsible for decisions and published content.
+- Protect sensitive personal data, dignity, consent and safeguarding.
+
 ## Context
 
 - Rebuild and modernise the public website for Healing Hands Network, a UK
