@@ -21,8 +21,11 @@ export default function OurWorkPage() {
         intro="Healing Hands Network works overseas and in the UK, responding with complementary therapies, practical aid and compassionate support."
       />
 
-      <section className="section">
+      <section className="section" aria-labelledby="work-areas-heading">
         <div className="site-container">
+          <h2 id="work-areas-heading" className="visually-hidden">
+            Our areas of work
+          </h2>
           <div className="project-grid">
             {projects.map((project) => (
               <ProjectCard key={project.href} project={project} />

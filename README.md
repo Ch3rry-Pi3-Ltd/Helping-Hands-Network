@@ -53,6 +53,10 @@ The main content to update is in `src/content/site.ts`. Longer page copy lives b
   website.
 - [`docs/launch-checklist.md`](docs/launch-checklist.md) — the authoritative
   status and remaining-work checklist.
+- [`docs/stakeholder-confirmations.md`](docs/stakeholder-confirmations.md) —
+  the decision and content questions for Susan and the trustees.
+- [`docs/qa-report.md`](docs/qa-report.md) — responsive, keyboard, metadata and
+  automated accessibility test results.
 
 ## Pages
 

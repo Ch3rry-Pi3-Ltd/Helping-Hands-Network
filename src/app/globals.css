@@ -14,7 +14,7 @@
   --warm: #f5efe5;
   --soft: #f3f7f5;
   --line: #d7e2df;
-  --muted: #5e7477;
+  --muted: #536a6d;
   --white: #ffffff;
   --shadow: 0 22px 60px rgba(21, 54, 58, 0.11);
   --radius-lg: 30px;
@@ -91,8 +91,21 @@ h3 {
 }
 
 :focus-visible {
-  outline: 3px solid #d69e2e;
-  outline-offset: 4px;
+  outline: 3px solid var(--white);
+  outline-offset: 3px;
+  box-shadow: 0 0 0 6px var(--ink-deep);
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
 }
 
 .site-container {
@@ -478,7 +491,7 @@ h3 {
   text-align: center;
 }
 
-.section-heading > p:last-child {
+.section-heading > .section-intro {
   margin-top: 20px;
   color: var(--muted);
   font-size: 1.05rem;
@@ -804,6 +817,15 @@ h3 {
 
 .cta-band .button-row {
   margin-top: 0;
+}
+
+.cta-band .button-secondary {
+  color: var(--white);
+  border-color: #9db7b5;
+}
+
+.cta-band .button-secondary:hover {
+  color: var(--ink-deep);
 }
 
 .page-header {

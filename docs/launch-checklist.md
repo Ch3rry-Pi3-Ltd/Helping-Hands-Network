@@ -31,6 +31,9 @@ Last reviewed: 4 July 2026.
 
 These items block publication of the affected content.
 
+The questions and response fields are collected in the
+[stakeholder confirmation pack](stakeholder-confirmations.md).
+
 - [ ] Select the primary donation campaign and confirm whether the existing
       JustGiving and GoFundMe campaigns remain active.
 - [ ] Confirm whether GivingLottery is an approved current fundraising route.
@@ -72,15 +75,15 @@ These items block publication of the affected content.
 - [x] Run `npm run lint`.
 - [x] Run `npm run typecheck`.
 - [x] Run `npm run build` using the intended production environment value.
-- [ ] Test all pages at mobile, tablet and desktop widths.
-- [ ] Test navigation, links and controls using only a keyboard.
-- [ ] Check visible focus states, heading order, landmarks, colour contrast and
+- [x] Test all pages at mobile, tablet and desktop widths.
+- [x] Test navigation, links and controls using only a keyboard.
+- [x] Check visible focus states, heading order, landmarks, colour contrast and
       screen-reader names.
 - [ ] Verify every image has approved, useful alternative text.
 - [ ] Check every internal, email, telephone, social and fundraising link.
 - [x] Verify deployed canonical and Open Graph URLs, `robots.txt` and
       `sitemap.xml` use the approved Vercel URL wherever currently generated.
-- [ ] Add homepage-specific canonical and Open Graph metadata, then validate
+- [x] Add homepage-specific canonical and Open Graph metadata, then validate
       its social preview.
 - [x] Confirm that no secrets, private records or live-system credentials are
       present in the repository or deployment configuration.
@@ -150,4 +153,6 @@ stakeholder agreement.
 - [Project brief](project-brief.md)
 - [Digital, Data and AI Opportunity Review](<HHN - Digital, Data, and AI Opportunity Review.pdf>)
 - [Existing website audit](../AUDIT.md)
+- [Stakeholder confirmation pack](stakeholder-confirmations.md)
+- [Website QA report](qa-report.md)
 - [Development and deployment guide](../README.md)

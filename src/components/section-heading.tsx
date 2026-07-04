@@ -15,7 +15,7 @@ export function SectionHeading({
     <div className={`section-heading section-heading-${align}`}>
       {eyebrow ? <p className="eyebrow">{eyebrow}</p> : null}
       <h2>{title}</h2>
-      {intro ? <p>{intro}</p> : null}
+      {intro ? <p className="section-intro">{intro}</p> : null}
     </div>
   );
 }
