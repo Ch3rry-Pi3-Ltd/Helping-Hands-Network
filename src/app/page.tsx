@@ -6,7 +6,15 @@ import { ArrowRightIcon, HandsIcon, HeartIcon } from "@/components/icons";
 import { ProjectCard } from "@/components/project-card";
 import { QuoteCard } from "@/components/quote-card";
 import { SectionHeading } from "@/components/section-heading";
-import { projects, testimonials } from "@/content/site";
+import { projects, siteConfig, testimonials } from "@/content/site";
+import { createMetadata } from "@/lib/metadata";
+
+export const metadata = createMetadata(
+  siteConfig.name,
+  siteConfig.description,
+  "/",
+  { absoluteTitle: true },
+);
 
 export default function Home() {
   return (

@@ -5,11 +5,12 @@ export function createMetadata(
   title: string,
   description: string,
   path: string,
+  options: { absoluteTitle?: boolean } = {},
 ): Metadata {
   const url = new URL(path, siteConfig.url).toString();
 
   return {
-    title,
+    title: options.absoluteTitle ? { absolute: title } : title,
     description,
     alternates: {
       canonical: url,
