@@ -89,6 +89,7 @@ The built homepage output contains:
 - Ask the charity to approve image usage, captions and alternative-text
   meaning.
 - Complete stakeholder review of all copy and calls to action.
-- Confirm external fundraising routes without completing a financial
+- Resolve the approval and ownership questions recorded in the
+  [external-link audit](external-link-audit.md) without completing a financial
   transaction.
 - Repeat a short smoke test after the final domain is connected.

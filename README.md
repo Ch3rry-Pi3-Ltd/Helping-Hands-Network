@@ -65,6 +65,14 @@ The main content to update is in `src/content/site.ts`. Longer page copy lives b
   the decision and content questions for Susan and the trustees.
 - [`docs/qa-report.md`](docs/qa-report.md) — responsive, keyboard, metadata and
   automated accessibility test results.
+- [`docs/content-maintenance-guide.md`](docs/content-maintenance-guide.md) —
+  the reviewed workflow for future website updates.
+- [`docs/external-link-audit.md`](docs/external-link-audit.md) — the latest
+  reachability and destination review for public links.
+- [`docs/launch-and-rollback-plan.md`](docs/launch-and-rollback-plan.md) — the
+  proposed custom-domain cutover and recovery procedure.
+- [`docs/handover-checklist.md`](docs/handover-checklist.md) — account,
+  ownership, approval and operational readiness checks.
 
 ## Pages
 

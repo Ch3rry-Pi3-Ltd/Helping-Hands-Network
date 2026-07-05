@@ -96,6 +96,8 @@ These items turn the approved prototype into the version proposed for launch.
       automatically in GitHub Actions.
 - [ ] Verify every image has approved, useful alternative text.
 - [x] Check every internal link automatically.
+- [x] Audit the technical reachability and visible identity of current social
+      and fundraising destinations on 5 July 2026.
 - [ ] Manually confirm every email, telephone, social and fundraising link.
 - [x] Verify deployed canonical and Open Graph URLs, `robots.txt` and
       `sitemap.xml` use the approved Vercel URL wherever currently generated.
@@ -119,6 +121,11 @@ Current Vercel URL:
 
 ## Production launch
 
+- [x] Draft a launch and rollback runbook without changing live systems.
+- [x] Record a dated public-DNS baseline and identify the legacy domain's
+      current certificate fault.
+- [x] Create a pre-launch handover checklist covering people, accounts,
+      approval, backups and operational readiness.
 - [ ] Agree a launch and rollback plan covering the existing WordPress site.
 - [ ] Confirm responsibility for the domain, DNS, hosting and email changes.
 - [ ] Set the final production environment URL and deploy the approved build.
@@ -145,8 +152,9 @@ stakeholder agreement.
       underlying facts and reporting process are approved.
 - [ ] Assess Google for Nonprofits, Google Ad Grants, Canva for Nonprofits and
       Charity Digital against current eligibility and administrative capacity.
-- [ ] Define a sustainable website, social-media and email update workflow with
-      named human approval.
+- [x] Document a sustainable, reviewed website-content update workflow.
+- [ ] Nominate the people responsible for content, fundraising links,
+      safeguarding/privacy approval and technical maintenance.
 - [ ] Complete an AI and data-protection policy before using AI-assisted admin,
       reporting or public-content workflows.
 - [ ] Scope any volunteer or membership tracker around data minimisation,
@@ -171,4 +179,8 @@ stakeholder agreement.
 - [Existing website audit](../AUDIT.md)
 - [Stakeholder confirmation pack](stakeholder-confirmations.md)
 - [Website QA report](qa-report.md)
+- [Content maintenance guide](content-maintenance-guide.md)
+- [External link and contact-route audit](external-link-audit.md)
+- [Domain launch and rollback plan](launch-and-rollback-plan.md)
+- [Pre-launch handover checklist](handover-checklist.md)
 - [Development and deployment guide](../README.md)
