@@ -24,6 +24,7 @@ Last reviewed: 5 July 2026.
       structured content file.
 - [x] Add page metadata, canonical URLs, Open Graph metadata, `robots.txt` and
       `sitemap.xml`.
+- [x] Add a branded not-found page and standard browser security headers.
 - [x] Add local development, safety and Vercel deployment instructions.
 - [x] Keep WordPress, hosting, DNS, email and payment systems disconnected.
 
@@ -89,8 +90,13 @@ These items turn the approved prototype into the version proposed for launch.
 - [x] Test navigation, links and controls using only a keyboard.
 - [x] Check visible focus states, heading order, landmarks, colour contrast and
       screen-reader names.
+- [x] Add automated Chromium checks for every public page, internal links,
+      WCAG-focused axe rules, the not-found page and security headers.
+- [x] Run lint, type checking, the production build and browser suite
+      automatically in GitHub Actions.
 - [ ] Verify every image has approved, useful alternative text.
-- [ ] Check every internal, email, telephone, social and fundraising link.
+- [x] Check every internal link automatically.
+- [ ] Manually confirm every email, telephone, social and fundraising link.
 - [x] Verify deployed canonical and Open Graph URLs, `robots.txt` and
       `sitemap.xml` use the approved Vercel URL wherever currently generated.
 - [x] Add homepage-specific canonical and Open Graph metadata, then validate

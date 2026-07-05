@@ -26,7 +26,15 @@ Useful checks:
 npm run lint
 npm run typecheck
 npm run build
+npx playwright install chromium
+npm run test:e2e
 ```
+
+The browser suite expects a completed production build. It starts that build
+locally and checks every public page for internal-link failures, detectable
+accessibility violations, the custom 404 page and required security headers.
+GitHub Actions runs the complete sequence automatically for pull requests and
+pushes to `main`.
 
 ## Project structure
 
@@ -70,6 +78,7 @@ The main content to update is in `src/content/site.ts`. Longer page copy lives b
 - `/support-us`
 - `/updates`
 - `/contact`
+- `/privacy`
 
 ## Content status
 

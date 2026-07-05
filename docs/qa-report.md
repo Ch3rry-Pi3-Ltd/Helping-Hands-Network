@@ -1,6 +1,6 @@
 # Website QA report
 
-Reviewed: 4 July 2026.
+Reviewed: 5 July 2026.
 
 This report records the automated and visual checks completed against the
 production build. It does not replace stakeholder content approval or testing
@@ -16,7 +16,7 @@ All three checks passed.
 
 ## Responsive and structural checks
 
-All ten public pages were rendered in Chrome at:
+The original ten public content pages were rendered in Chrome at:
 
 - Mobile: 390 × 844 CSS pixels
 - Tablet: 768 × 1024 CSS pixels
@@ -52,6 +52,14 @@ reported zero violations.
 The initial run identified shared colour-contrast failures and a heading-level
 jump on the Our Work page. Those findings were corrected before the final run.
 
+On 5 July 2026, a repeatable Playwright and axe-core suite was added. It runs
+against the production build and currently covers all eleven public pages,
+including Privacy. It also checks every internal link, the custom 404 response
+and the configured security headers. All 14 browser tests passed.
+
+GitHub Actions now runs installation, linting, type checking, the production
+build and the browser suite for every pull request and push to `main`.
+
 ## Metadata checks
 
 The built homepage output contains:
@@ -69,6 +77,10 @@ The built homepage output contains:
 - Corrected secondary-button contrast inside dark CTA bands.
 - Corrected section-introduction styling so it does not override eyebrow text.
 - Strengthened visible focus indicators.
+- Added a branded not-found page.
+- Added Content Security Policy, referrer, permissions, content-type and
+  framing headers.
+- Added repeatable link, accessibility, not-found and security-header tests.
 
 ## Remaining manual checks
 
