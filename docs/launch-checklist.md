@@ -3,7 +3,7 @@
 This is the authoritative list of completed and outstanding work for the
 Healing Hands Network website prototype.
 
-Last reviewed: 4 July 2026.
+Last reviewed: 5 July 2026.
 
 ## Status key
 
@@ -55,8 +55,14 @@ The questions and response fields are collected in the
       and photographs currently used by the prototype.
 - [ ] Approve the final public website URL.
 
-## Content updates after confirmation
+## Release-candidate preparation
 
+These items turn the approved prototype into the version proposed for launch.
+
+- [ ] Record stakeholder approval of the visual design, tone and overall
+      structure.
+- [ ] Confirm the factual accuracy of the contact details, donation routes,
+      programme information and image permissions listed above.
 - [ ] Update `src/content/site.ts` with confirmed contact details and support
       routes.
 - [ ] Replace affected yellow status notes with approved programme and
@@ -68,6 +74,10 @@ The questions and response fields are collected in the
       descriptions, testimonials and calls to action.
 - [ ] Remove all public-facing confirmation notes once their underlying items
       are resolved.
+- [ ] Remove the prototype wording from the footer when the content is approved
+      for launch.
+- [ ] Produce a release candidate and repeat the complete accessibility, link,
+      mobile and production-build checks against it.
 
 ## Quality assurance
 
