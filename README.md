@@ -75,6 +75,14 @@ The main content to update is in `src/content/site.ts`. Longer page copy lives b
   a safe structure for collecting future impact updates.
 - [`docs/donation-route-map.md`](docs/donation-route-map.md) — current giving
   routes and the confirmations needed before promotion.
+- [`docs/charity-tools-readiness.md`](docs/charity-tools-readiness.md) —
+  Google, Canva, Search Console and software-discount readiness checks.
+- [`docs/ai-admin-policy-draft.md`](docs/ai-admin-policy-draft.md) —
+  proposed boundaries for safe AI-assisted administration.
+- [`docs/volunteer-member-tracker-scope.md`](docs/volunteer-member-tracker-scope.md) —
+  data-minimised scope for any future volunteer/member tracker.
+- [`docs/grant-opportunity-workflow.md`](docs/grant-opportunity-workflow.md) —
+  lightweight grant tracking and reusable charity information workflow.
 - [`docs/content-maintenance-guide.md`](docs/content-maintenance-guide.md) —
   the reviewed workflow for future website updates.
 - [`docs/external-link-audit.md`](docs/external-link-audit.md) — the latest

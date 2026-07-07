@@ -158,6 +158,8 @@ stakeholder agreement.
       underlying facts and reporting process are approved.
 - [ ] Assess Google for Nonprofits, Google Ad Grants, Canva for Nonprofits and
       Charity Digital against current eligibility and administrative capacity.
+- [x] Draft a charity-tools readiness checklist covering Google, Canva,
+      Search Console and software-discount routes.
 - [x] Document a sustainable, reviewed website-content update workflow.
 - [x] Prepare a plain-English prototype review pack for Susan and the trustees.
 - [ ] Nominate the people responsible for content, fundraising links,
@@ -169,6 +171,12 @@ stakeholder agreement.
 - [ ] Consider a grant-opportunity and application workflow only after impact
       evidence and reusable organisational information are maintained
       reliably.
+- [x] Draft an AI-assisted admin policy for discussion before any real charity
+      information is processed.
+- [x] Draft a volunteer/member tracker scope focused on data minimisation,
+      access control and retention.
+- [x] Draft a grant-opportunity workflow and reusable charity information
+      template.
 - [ ] Treat any FAQ assistant as a later, tightly bounded project that cannot
       provide medical, therapy, PTSD or crisis advice.
 
@@ -191,6 +199,10 @@ stakeholder agreement.
 - [Susan review pack](susan-review-pack.md)
 - [Impact reporting template](impact-reporting-template.md)
 - [Donation route map](donation-route-map.md)
+- [Charity tools readiness checklist](charity-tools-readiness.md)
+- [AI-assisted admin policy draft](ai-admin-policy-draft.md)
+- [Volunteer/member tracker scope](volunteer-member-tracker-scope.md)
+- [Grant opportunity workflow](grant-opportunity-workflow.md)
 - [Content maintenance guide](content-maintenance-guide.md)
 - [External link and contact-route audit](external-link-audit.md)
 - [Domain launch and rollback plan](launch-and-rollback-plan.md)

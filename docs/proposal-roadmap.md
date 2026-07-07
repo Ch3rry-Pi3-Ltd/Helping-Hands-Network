@@ -20,10 +20,10 @@ for Susan and the trustees.
 | Content maintenance | Workflow documented. | Simple review process and handover checklist prepared. | Named content owner and charity approver. |
 | Analytics | Vercel Web Analytics enabled. | Privacy-friendly aggregate analytics in place. | Decide whether future conversion/referral measurement is needed. |
 | Search visibility | Technical SEO baseline is strong. | Sitemap, metadata, Lighthouse audit and launch checklist complete. | Final domain and Google Search Console access after launch approval. |
-| Google/charity tools | Not started. | Readiness checklist can be completed without changing live systems. | Eligibility, admin owner and appetite for ongoing management. |
-| AI-assisted admin | Not implemented. | Policy and risk boundaries can be drafted first. | Agreement on acceptable uses, data rules and human review. |
-| Volunteer/member tracking | Not implemented. | Scope should start with data minimisation and safeguarding requirements. | What data is truly needed, who accesses it and retention rules. |
-| Grant workflow | Not implemented. | Lightweight tracking template can be prepared. | Grant priorities, reusable charity information and named owner. |
+| Google/charity tools | Readiness checklist drafted. | Current source links and account-governance checklist prepared. | Eligibility, admin owner and appetite for ongoing management. |
+| AI-assisted admin | Draft policy prepared. | Safe uses, red lines and human-review rules documented. | Agreement on acceptable uses, data rules and human review. |
+| Volunteer/member tracking | Scope drafted. | Data-minimisation, access and retention questions documented. | What data is truly needed, who accesses it and retention rules. |
+| Grant workflow | Workflow drafted. | Grant tracker and reusable charity information template prepared. | Grant priorities, reusable charity information and named owner. |
 
 ## Suggested two-week development focus
 
@@ -36,6 +36,8 @@ The useful work while Susan is busy is preparation, not public publication.
    current operational claims.
 4. Package the prototype and roadmap so Susan can review it quickly when she
    has time.
+5. Keep Google/charity tools, AI, volunteer tracking and grant workflows as
+   opt-in follow-up strands rather than assumed implementation.
 
 ## Proposed next decisions
 
@@ -48,6 +50,7 @@ When Susan is available, the most useful decisions are:
 - Who should approve public website updates?
 - Is the charity interested in developing impact reporting, Google for
   Nonprofits, grant tracking or AI-assisted admin as separate follow-up work?
+- Who would own any new account, tracker or workflow after setup?
 
 ## Guardrails
 
@@ -58,4 +61,3 @@ When Susan is available, the most useful decisions are:
   in AI tools without a separate data-protection and safeguarding decision.
 - Keep Susan's administrative burden low: prefer lightweight templates before
   introducing new software.
-
