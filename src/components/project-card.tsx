@@ -26,7 +26,7 @@ export function ProjectCard({ project }: { project: Project }) {
         <h3>{project.title}</h3>
         <p>{project.summary}</p>
         <Link href={project.href} className="text-link">
-          Learn more <ArrowRightIcon />
+          Learn more about {project.title} <ArrowRightIcon />
         </Link>
       </div>
     </article>

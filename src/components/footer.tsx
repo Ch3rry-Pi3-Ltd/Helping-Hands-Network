@@ -8,7 +8,7 @@ export function Footer() {
       <div className="site-container footer-grid">
         <div className="footer-intro">
           <Link href="/" className="footer-brand">
-            <Image src="/images/logo.png" alt="" width={58} height={49} />
+            <Image src="/images/logo.png" alt="" width={58} height={49} quality={60} />
             <span>Healing Hands Network</span>
           </Link>
           <p>{siteConfig.mission}</p>

@@ -29,12 +29,13 @@ export function Header() {
         </div>
       </div>
       <div className="site-container header-inner">
-        <Link href="/" className="brand" aria-label="Healing Hands Network home">
+        <Link href="/" className="brand">
           <Image
             src="/images/logo.png"
             alt=""
-            width={68}
-            height={57}
+            width={62}
+            height={52}
+            quality={60}
             priority
             className="brand-logo"
           />
@@ -53,7 +54,7 @@ export function Header() {
         </div>
 
         <details className="mobile-nav">
-          <summary aria-label="Open navigation">
+          <summary>
             <MenuIcon />
             <span>Menu</span>
           </summary>
