@@ -65,6 +65,8 @@ The main content to update is in `src/content/site.ts`. Longer page copy lives b
   the decision and content questions for Susan and the trustees.
 - [`docs/qa-report.md`](docs/qa-report.md) — responsive, keyboard, metadata and
   automated accessibility test results.
+- [`docs/performance-seo-audit.md`](docs/performance-seo-audit.md) —
+  Lighthouse performance, accessibility, best-practices and SEO baseline.
 - [`docs/content-maintenance-guide.md`](docs/content-maintenance-guide.md) —
   the reviewed workflow for future website updates.
 - [`docs/external-link-audit.md`](docs/external-link-audit.md) — the latest

@@ -1,6 +1,6 @@
 # Website QA report
 
-Reviewed: 5 July 2026.
+Reviewed: 7 July 2026.
 
 This report records the automated and visual checks completed against the
 production build. It does not replace stakeholder content approval or testing
@@ -69,6 +69,20 @@ The built homepage output contains:
 - Open Graph title, description, URL and image fields.
 - Twitter card title, description and image fields.
 
+## Performance and SEO checks
+
+On 7 July 2026, Lighthouse was run against the deployed Vercel prototype after
+the homepage link-text and accessible-name fixes were deployed. The production
+scores were:
+
+- Performance: 99
+- Accessibility: 100
+- Best Practices: 100
+- SEO: 100
+
+The detailed baseline is recorded in the
+[performance and SEO audit](performance-seo-audit.md).
+
 ## Changes made during QA
 
 - Added homepage-specific canonical and social-sharing metadata.
@@ -81,6 +95,10 @@ The built homepage output contains:
 - Added Content Security Policy, referrer, permissions, content-type and
   framing headers.
 - Added repeatable link, accessibility, not-found and security-header tests.
+- Improved homepage project-card link text.
+- Removed redundant header and mobile-menu `aria-label` values so accessible
+  names match visible text.
+- Tuned the small header and footer logo image delivery.
 
 ## Remaining manual checks
 

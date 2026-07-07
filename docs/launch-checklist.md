@@ -3,7 +3,7 @@
 This is the authoritative list of completed and outstanding work for the
 Healing Hands Network website prototype.
 
-Last reviewed: 5 July 2026.
+Last reviewed: 7 July 2026.
 
 ## Status key
 
@@ -103,6 +103,8 @@ These items turn the approved prototype into the version proposed for launch.
       `sitemap.xml` use the approved Vercel URL wherever currently generated.
 - [x] Add homepage-specific canonical and Open Graph metadata, then validate
       its social preview.
+- [x] Run a production Lighthouse performance, accessibility, best-practices
+      and SEO baseline against the Vercel prototype.
 - [x] Confirm that no secrets, private records or live-system credentials are
       present in the repository or deployment configuration.
 
@@ -179,6 +181,7 @@ stakeholder agreement.
 - [Existing website audit](../AUDIT.md)
 - [Stakeholder confirmation pack](stakeholder-confirmations.md)
 - [Website QA report](qa-report.md)
+- [Performance and SEO audit](performance-seo-audit.md)
 - [Content maintenance guide](content-maintenance-guide.md)
 - [External link and contact-route audit](external-link-audit.md)
 - [Domain launch and rollback plan](launch-and-rollback-plan.md)
