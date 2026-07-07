@@ -67,6 +67,14 @@ The main content to update is in `src/content/site.ts`. Longer page copy lives b
   automated accessibility test results.
 - [`docs/performance-seo-audit.md`](docs/performance-seo-audit.md) —
   Lighthouse performance, accessibility, best-practices and SEO baseline.
+- [`docs/proposal-roadmap.md`](docs/proposal-roadmap.md) — the proposal ideas
+  turned into staged, approval-aware next steps.
+- [`docs/susan-review-pack.md`](docs/susan-review-pack.md) — a plain-English
+  prototype review pack for Susan and the trustees.
+- [`docs/impact-reporting-template.md`](docs/impact-reporting-template.md) —
+  a safe structure for collecting future impact updates.
+- [`docs/donation-route-map.md`](docs/donation-route-map.md) — current giving
+  routes and the confirmations needed before promotion.
 - [`docs/content-maintenance-guide.md`](docs/content-maintenance-guide.md) —
   the reviewed workflow for future website updates.
 - [`docs/external-link-audit.md`](docs/external-link-audit.md) — the latest

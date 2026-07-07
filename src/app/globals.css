@@ -1193,6 +1193,88 @@ h3 {
   color: var(--muted);
 }
 
+.updates-intro,
+.impact-layout {
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr;
+  align-items: start;
+  gap: clamp(32px, 6vw, 80px);
+}
+
+.review-card,
+.workflow-card,
+.update-card {
+  padding: clamp(28px, 4vw, 44px);
+  background: var(--white);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-lg);
+  box-shadow: 0 8px 30px rgba(27, 65, 68, 0.05);
+}
+
+.review-card {
+  background: var(--teal-soft);
+}
+
+.review-card h2,
+.workflow-card h2,
+.update-card h2 {
+  margin-bottom: 14px;
+  font-size: clamp(1.55rem, 2.5vw, 2.1rem);
+}
+
+.review-card p:not(.card-kicker),
+.workflow-card li,
+.update-card p,
+.field-list {
+  color: var(--muted);
+}
+
+.update-card-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 24px;
+}
+
+.update-card-note {
+  padding-top: 16px;
+  margin-top: 22px;
+  border-top: 1px solid var(--line);
+  font-size: 0.92rem;
+}
+
+.update-card-note strong {
+  color: var(--ink-deep);
+}
+
+.field-list {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.field-list li {
+  padding: 14px 16px;
+  background: var(--white);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-sm);
+  font-weight: 700;
+}
+
+.workflow-card ol {
+  display: grid;
+  gap: 16px;
+  padding-left: 22px;
+  margin: 20px 0 0;
+}
+
+.workflow-card li::marker {
+  color: var(--teal);
+  font-weight: 800;
+}
+
 .contact-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -1424,6 +1506,8 @@ h3 {
   .story-grid,
   .editorial-grid,
   .ukraine-layout,
+  .updates-intro,
+  .impact-layout,
   .quote-layout,
   .two-column-copy,
   .cta-band-inner {
@@ -1527,6 +1611,8 @@ h3 {
   .quote-grid,
   .volunteer-grid,
   .support-grid,
+  .update-card-grid,
+  .field-list,
   .contact-grid,
   .footer-grid {
     grid-template-columns: 1fr;

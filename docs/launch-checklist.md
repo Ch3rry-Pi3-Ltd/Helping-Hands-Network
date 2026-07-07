@@ -146,6 +146,10 @@ stakeholder agreement.
       owner before publishing statistics or impact summaries.
 - [ ] Map each approved donation route to its intended purpose and decide
       whether privacy-respecting referral or conversion measurement is needed.
+- [x] Draft an impact-reporting template so future updates can be collected
+      with evidence, consent and approval status.
+- [x] Draft a donation-route map so current giving routes can be reviewed
+      before promotion.
 - [ ] Set up or review Google Search Console after the production domain is
       approved.
 - [x] Add privacy-respecting, cookie-free Vercel Web Analytics for aggregate
@@ -155,6 +159,7 @@ stakeholder agreement.
 - [ ] Assess Google for Nonprofits, Google Ad Grants, Canva for Nonprofits and
       Charity Digital against current eligibility and administrative capacity.
 - [x] Document a sustainable, reviewed website-content update workflow.
+- [x] Prepare a plain-English prototype review pack for Susan and the trustees.
 - [ ] Nominate the people responsible for content, fundraising links,
       safeguarding/privacy approval and technical maintenance.
 - [ ] Complete an AI and data-protection policy before using AI-assisted admin,
@@ -182,6 +187,10 @@ stakeholder agreement.
 - [Stakeholder confirmation pack](stakeholder-confirmations.md)
 - [Website QA report](qa-report.md)
 - [Performance and SEO audit](performance-seo-audit.md)
+- [Proposal roadmap](proposal-roadmap.md)
+- [Susan review pack](susan-review-pack.md)
+- [Impact reporting template](impact-reporting-template.md)
+- [Donation route map](donation-route-map.md)
 - [Content maintenance guide](content-maintenance-guide.md)
 - [External link and contact-route audit](external-link-audit.md)
 - [Domain launch and rollback plan](launch-and-rollback-plan.md)
