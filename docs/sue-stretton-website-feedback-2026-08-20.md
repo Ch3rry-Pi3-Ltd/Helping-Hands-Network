@@ -172,6 +172,86 @@ Sue is very positive about the refreshed design and approach and is keen for the
 | Pending | Consider promoting the Amazon wishlist. | Sue to audit the items, availability and prices first. |
 | Pending | Establish a simple process for Sue to submit future website updates. | Agree the format, approval route and person responsible for publishing changes. |
 
+## Implementation status
+
+Updated: 22 August 2026.
+
+Implemented in commit `7ca4b49` — `Implement Sue website feedback`.
+
+### Completed website changes
+
+- Corrected **Siege of Sarajevo** capitalisation on the public pages.
+- Changed the site framing from three equal work areas to **two principal
+  areas of work**:
+  - Bosnia and Herzegovina;
+  - Ukraine Aid.
+- Reframed the former UK veterans page as **current UK support / FABCAMPS**
+  rather than a wider active UK veterans programme.
+- Updated the homepage, About page and Our Work page to explain that current
+  UK activity is focused on FABCAMPS.
+- Updated the UK support page to describe the Wales and Scotland FABCAMPS
+  residential weeks and the limited wider UK activity since Covid.
+- Updated Support Us so **GoFundMe** is presented first as the preferred online
+  fundraising platform.
+- Moved JustGiving into a secondary role rather than presenting it as the main
+  donation platform.
+- Added **Giving Lottery** and **Give as You Live** as confirmed fundraising
+  routes, while still asking for current links and approved marketing material.
+- Added sponsored-event and community-fundraising examples from Sue's email.
+- Updated the Bosnia page with:
+  - the usual **1 May to 31 July** Sarajevo season;
+  - the association categories Sue listed;
+  - one-week, two-week and longer volunteer trip options;
+  - the costs covered by volunteer contributions.
+- Updated the Ukraine page with:
+  - the approximate **£1,600** cost per aid-delivery trip;
+  - the Amazon wishlist note, marked as pending Sue's review of items, prices
+    and availability.
+- Updated the Volunteer page to clarify:
+  - professionally qualified and insured therapists;
+  - certified, insurable mainstream modalities;
+  - travelling volunteers and supporter members;
+  - non-therapist supporter membership.
+- Updated project documentation, donation mapping, stakeholder confirmation
+  notes and the content-maintenance guide to reflect Sue's feedback.
+
+### Verified after implementation
+
+- `npm run lint` passed.
+- `npm run typecheck` passed.
+- Production build passed.
+- Playwright accessibility, internal-link, not-found and security-header tests
+  passed: 14/14.
+- GitHub Actions passed for commit `7ca4b49`.
+- Vercel showed the latest production deployment as **Ready**.
+- The live site was checked directly at:
+  [https://helping-hands-network.vercel.app/](https://helping-hands-network.vercel.app/).
+- All public routes returned HTTP 200 after deployment.
+
+### Still awaiting Sue or charity input
+
+- Exact preferred GoFundMe URL and confirmation that its campaign wording
+  remains current.
+- Giving Lottery link and any required wording or marketing material.
+- Give as You Live link and approved promotional material.
+- Current bank-transfer wording, Gift Aid form and handling instructions.
+- Current membership forms, fees and detailed eligibility requirements.
+- Confirmation that all Bosnia association names are spelt correctly and may
+  be published.
+- Confirmation of outreach venues and any current volunteer contribution
+  amount.
+- Confirmation that the approximate £1,600 Ukraine trip cost can be used in
+  prominent fundraising copy.
+- Review of the Amazon wishlist before it is linked publicly.
+- Confirmation of approved FABCAMPS wording, imagery and whether the UK support
+  page should remain separate.
+- Final approval of image use, captions, alternative text and launch timing.
+
 ## Recommended interpretation
 
-The feedback provides enough direction to begin the factual corrections and restructure the relevant pages. Links, costs, eligibility statements and named organisations should still be treated as stakeholder-supplied information requiring final confirmation before the public launch. The website team should also give Sue a straightforward, repeatable method for submitting future updates without requiring her to edit the codebase directly.
+The feedback provided enough direction to make the first factual corrections
+and restructure the relevant pages. Links, costs, eligibility statements and
+named organisations should still be treated as stakeholder-supplied information
+requiring final confirmation before the public launch. The website team should
+continue to give Sue a straightforward, repeatable method for submitting future
+updates without requiring her to edit the codebase directly.
