@@ -12,6 +12,7 @@ should be directed to a campaign.
 | --- | --- | --- | --- |
 | [Facebook](https://www.facebook.com/healinghandsnetwork) | HTTP 200 | Page identifies itself as Healing Hands Network. | Confirm administrator access and that the page remains approved. |
 | [CAF Donate](https://cafdonate.cafonline.org/23120) | HTTP 200 on 22 August 2026 | Sue supplied this as a donation route and the page was reachable. | Confirm desired prominence and approved wording. |
+| [GoFundMe profile](https://www.gofundme.com/u/healing-hands-network) | HTTP 200 on 22 August 2026 | Page title identifies it as Healing Hands Network's GoFundMe profile. | Confirm administrator access and that the profile/campaign wording remains current. |
 | [JustGiving — Aid for Ukraine](https://www.justgiving.com/campaign/justgivingaidforukraine) | HTTP 200 | Page identifies the campaign and Healing Hands Network; its structured page data reports an active status. | Campaign wording concerns older activity and must be approved before launch. |
 | [GoFundMe — Aid for Ukraine continues](https://www.gofundme.com/f/aid-for-ukraine-continues) | HTTP 200 | Page names Susan Stretton as organiser and Healing Hands Network as beneficiary; a donation action is displayed. | Confirm current control, purpose and whether it should remain promoted. |
 
@@ -31,6 +32,7 @@ should be directed to a campaign.
 | `https://gofund.me/healinghandsnetwork` | HTTP 200 but resolved to GoFundMe homepage | Did not resolve as a specific campaign. | Do not use as final link; ask Sue for exact URL. |
 | `https://gofundme.com/healinghandsnetwork` | HTTP 404 | No matching campaign page found. | Do not use. |
 | `https://www.gofundme.com/f/healinghandsnetwork` | HTTP 404 | No matching campaign page found. | Do not use. |
+| `https://www.gofundme.com/u/healing-hands-network` | HTTP 200 | Page title identifies it as Healing Hands Network's GoFundMe profile. | Use as the public GoFundMe route. |
 | `https://www.facebook.com/HealingHandsNetwork` | HTTP 200 | Resolves to the existing Healing Hands Network Facebook page. | Existing Facebook link remains suitable. |
 | `https://www.thegivinglottery.co.uk/` | DNS failed from the development environment | The supplied domain did not resolve during this check. | Ask Sue for the exact current Giving Lottery page. |
 

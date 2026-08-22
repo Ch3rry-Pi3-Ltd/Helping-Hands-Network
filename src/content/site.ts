@@ -93,13 +93,12 @@ export const testimonials = [
 
 export const supportRoutes = [
   {
-    title: "GoFundMe Ukraine campaign",
+    title: "GoFundMe profile",
     description:
       "Sue has confirmed GoFundMe is the charity's preferred online fundraising platform because its costs are lower for the charity.",
-    href: "https://www.gofundme.com/f/aid-for-ukraine-continues",
-    label: "View existing GoFundMe campaign",
-    status:
-      "Latest supplied GoFundMe-style link did not resolve as a campaign; confirm the exact current URL before final launch",
+    href: "https://www.gofundme.com/u/healing-hands-network",
+    label: "View GoFundMe profile",
+    status: "Profile URL supplied by Roger and verified reachable on 22 August 2026",
   },
   {
     title: "CAF Donate",

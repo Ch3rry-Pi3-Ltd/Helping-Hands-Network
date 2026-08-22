@@ -29,8 +29,9 @@ Which destination should the main Donate and Support buttons use?
 Comments:
 
 Sue confirmed on 20 August 2026 that GoFundMe is preferred because it has
-lower costs for the charity. The exact preferred GoFundMe URL and current
-campaign wording still need final confirmation.
+lower costs for the charity. Roger supplied the GoFundMe profile URL on
+22 August 2026 and instructed that it should be used:
+`https://www.gofundme.com/u/healing-hands-network`.
 
 Sue supplied a CAF Donate link on 22 August 2026:
 `https://cafdonate.cafonline.org/23120`.
@@ -63,19 +64,16 @@ For each route, mark **Use**, **Keep but secondary**, or **Do not link**.
 - [ ] The campaign remains open for donations.
 - [ ] The campaign wording, named partners and activities remain current.
 
-### GoFundMe — Aid for Ukraine continues
+### GoFundMe profile
 
-[Aid for Ukraine continues](https://www.gofundme.com/f/aid-for-ukraine-continues)
+[Healing Hands Network GoFundMe profile](https://www.gofundme.com/u/healing-hands-network)
 
-- [x] Use as preferred main online platform, subject to exact URL confirmation
+- [x] Use as preferred main online platform
 - [ ] Keep but secondary
 - [ ] Do not link
-- [ ] The campaign remains open for donations.
+- [x] The profile URL returned HTTP 200 when checked on 22 August 2026.
 - [ ] The charity has current administrator access.
-- [ ] The campaign wording and spending purpose remain current.
-- [ ] The exact current GoFundMe URL has been supplied. The latest pasted
-      GoFundMe-style link did not resolve as a campaign when checked on
-      22 August 2026.
+- [ ] The profile wording and listed campaigns remain current.
 
 ### CAF Donate
 

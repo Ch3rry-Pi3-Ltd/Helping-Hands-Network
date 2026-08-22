@@ -77,6 +77,7 @@ Checked from the development environment on 22 August 2026.
 | `https://gofund.me/healinghandsnetwork` | HTTP 200 but resolved to the GoFundMe homepage, not a campaign page. | Do not use as the final campaign link. Ask Sue for the exact URL. |
 | `https://gofundme.com/healinghandsnetwork` | HTTP 404. | Do not use. |
 | `https://www.gofundme.com/f/healinghandsnetwork` | HTTP 404. | Do not use. |
+| `https://www.gofundme.com/u/healing-hands-network` | HTTP 200 and page title identifies it as Healing Hands Network's GoFundMe profile. | Use as the public GoFundMe route. |
 | `https://www.facebook.com/HealingHandsNetwork` | HTTP 200 and resolves to the existing Facebook page. | Existing Facebook link remains suitable. |
 | `https://www.thegivinglottery.co.uk/` | DNS resolution failed from the development environment. | Do not add as a live link until Sue supplies a working page. |
 | `https://www.healinghandsnetwork.org.uk/` | SSL verification failed because of the existing self-signed certificate issue. | Keep existing domain-launch warning in place. |
@@ -92,9 +93,8 @@ Implemented in the website and supporting project documentation.
 - Added **CAF Donate** as a public support route.
 - Updated the site description to Sue's supplied positioning line:
   "Helping those affected by war and its aftermath in the UK and overseas."
-- Kept GoFundMe visible as the preferred online platform, but left it marked as
-  needing the exact current URL because the latest pasted link did not resolve
-  as a campaign.
+- Updated GoFundMe to use the Healing Hands Network profile URL supplied by
+  Roger: <https://www.gofundme.com/u/healing-hands-network>.
 - Kept Giving Lottery/Give as You Live marked as awaiting working links and
   approved promotional material.
 - Recorded that the charity does not support X; no X/Twitter social link is
@@ -103,7 +103,8 @@ Implemented in the website and supporting project documentation.
 
 ### Still awaiting Sue or charity input
 
-- Exact current GoFundMe campaign URL.
+- Confirmation that the charity has administrator access to the GoFundMe
+  profile and that the visible profile/campaign wording remains current.
 - Working Giving Lottery page URL and any required wording.
 - Give as You Live page URL and approved wording.
 - Confirmation that the CAF Donate page should be a prominent donation route.

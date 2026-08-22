@@ -40,8 +40,9 @@ The questions and response fields are collected in the
 - [x] Record Sue's 22 August 2026 follow-up feedback covering phone, admin
       support, CAF Donate, media assets and social-channel guidance.
 - [x] Confirm GoFundMe as the preferred main online fundraising platform.
-- [ ] Confirm the exact preferred GoFundMe URL and whether the existing
-      GoFundMe campaign wording remains current.
+- [x] Use the Healing Hands Network GoFundMe profile URL supplied by Roger.
+- [ ] Confirm GoFundMe profile administrator access and that the profile or
+      campaign wording remains current.
 - [x] Add Sue's supplied CAF Donate link.
 - [ ] Confirm that the CAF Donate page should remain prominent after final
       donation-route review.

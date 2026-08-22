@@ -162,7 +162,7 @@ Sue is very positive about the refreshed design and approach and is keen for the
 
 | Priority | Action | Input needed |
 |---|---|---|
-| High | Correct the Sarajevo title, number of main work areas and principal fundraising platform. | Confirm the exact preferred GoFundMe URL. |
+| High | Correct the Sarajevo title, number of main work areas and principal fundraising platform. | GoFundMe profile URL supplied and used in the 22 August 2026 follow-up update. |
 | High | Rework the UK veterans content so FABCAMPS is accurately described without implying a wider active programme. | Confirm approved wording and whether the page should remain separate. |
 | High | Update the Bosnia programme and volunteer information. | Confirm terminology, costs and whether all named associations may be published. |
 | Medium | Add Giving Lottery and Give as You Live routes. | Sue to provide links and approved marketing assets. |
@@ -230,8 +230,8 @@ Implemented in commit `7ca4b49` — `Implement Sue website feedback`.
 
 ### Still awaiting Sue or charity input
 
-- Exact preferred GoFundMe URL and confirmation that its campaign wording
-  remains current.
+- Confirmation that the GoFundMe profile/campaign wording remains current and
+  that the charity has administrator access.
 - Giving Lottery link and any required wording or marketing material.
 - Give as You Live link and approved promotional material.
 - Current bank-transfer wording, Gift Aid form and handling instructions.
