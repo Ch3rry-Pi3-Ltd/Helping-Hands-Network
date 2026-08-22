@@ -38,6 +38,18 @@ export type Project = {
   accent: "teal" | "blue" | "navy";
 };
 
+export const ukSupport = {
+  title: "UK military family support",
+  shortTitle: "UK support",
+  href: "/our-work/uk-veterans",
+  summary:
+    "Current UK activity is focused on supporting military FABCAMPS residential weeks for bereaved armed-forces families.",
+  image: "/images/veterans-group.jpg",
+  imageAlt:
+    "Veterans and support workers gathered around a table at a community meeting",
+  accent: "navy",
+} satisfies Project;
+
 export const projects: Project[] = [
   {
     title: "Bosnia and Herzegovina",
@@ -57,17 +69,6 @@ export const projects: Project[] = [
     summary:
       "Delivering vehicles and humanitarian, medical and surgical aid through trusted partners working across Ukraine.",
     accent: "blue",
-  },
-  {
-    title: "UK Veterans",
-    shortTitle: "UK Veterans",
-    href: "/our-work/uk-veterans",
-    summary:
-      "Supporting veterans, serving personnel and their families with complementary therapies and compassionate care.",
-    image: "/images/veterans-group.jpg",
-    imageAlt:
-      "Veterans and support workers gathered around a table at a community meeting",
-    accent: "navy",
   },
 ];
 
@@ -91,25 +92,33 @@ export const testimonials = [
 
 export const supportRoutes = [
   {
-    title: "Ukraine aid campaign",
+    title: "GoFundMe Ukraine campaign",
     description:
-      "A public JustGiving campaign is currently available for the charity's Ukraine work.",
-    href: "https://www.justgiving.com/campaign/justgivingaidforukraine",
-    label: "View JustGiving campaign",
-    status: "Confirm as the primary campaign before launch",
-  },
-  {
-    title: "GoFundMe campaign",
-    description:
-      "The current website embeds a GoFundMe campaign for continuing aid to Ukraine.",
+      "Sue has confirmed GoFundMe is the charity's preferred online fundraising platform because its costs are lower for the charity.",
     href: "https://www.gofundme.com/f/aid-for-ukraine-continues",
     label: "View GoFundMe campaign",
-    status: "Confirm campaign is still active before launch",
+    status: "Confirm the exact preferred GoFundMe URL before final launch",
+  },
+  {
+    title: "JustGiving registration",
+    description:
+      "Healing Hands Network is registered with JustGiving, but Sue has confirmed it is not the charity's main fundraising platform.",
+    href: "https://www.justgiving.com/charity/healinghandsnetwork",
+    label: "View JustGiving profile",
+    status: "Keep as a secondary route unless Sue asks otherwise",
+  },
+  {
+    title: "Giving Lottery and Give as You Live",
+    description:
+      "Sue has confirmed the charity uses The Giving Lottery and Give as You Live online shopping fundraising.",
+    href: `mailto:${siteConfig.email}?subject=Giving%20Lottery%20or%20Give%20as%20You%20Live`,
+    label: "Ask for current links",
+    status: "Sue to supply current links and approved marketing materials",
   },
   {
     title: "Standing order and Gift Aid",
     description:
-      "The existing site offers downloadable forms. Current versions and bank details should be supplied by the charity.",
+      "Supporters can donate by bank transfer and request a Gift Aid form. Current public instructions should be supplied by the charity.",
     href: `mailto:${siteConfig.email}?subject=Standing%20order%20or%20Gift%20Aid`,
     label: "Request the current forms",
     status: "Current documents to be confirmed",

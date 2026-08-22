@@ -6,7 +6,7 @@ import { ArrowRightIcon, HandsIcon, HeartIcon } from "@/components/icons";
 import { ProjectCard } from "@/components/project-card";
 import { QuoteCard } from "@/components/quote-card";
 import { SectionHeading } from "@/components/section-heading";
-import { projects, siteConfig, testimonials } from "@/content/site";
+import { projects, siteConfig, testimonials, ukSupport } from "@/content/site";
 import { createMetadata } from "@/lib/metadata";
 
 export const metadata = createMetadata(
@@ -73,8 +73,8 @@ export default function Home() {
             <span>Qualified therapists giving their time and skills</span>
           </div>
           <div>
-            <strong>Three areas</strong>
-            <span>Bosnia, Ukraine and UK veterans</span>
+            <strong>Two principal areas</strong>
+            <span>Bosnia and Ukraine, with current UK support through FABCAMPS</span>
           </div>
         </div>
       </section>
@@ -84,13 +84,25 @@ export default function Home() {
           <SectionHeading
             eyebrow="Where we work"
             title="Care that reaches across borders"
-            intro="From Sarajevo to communities across the UK and Ukraine, our work is shaped by what people affected by conflict need most."
+            intro="The charity's two principal areas of work are Bosnia and Herzegovina and Ukraine aid, with current UK support focused on military FABCAMPS residential weeks."
             align="center"
           />
           <div className="project-grid">
             {projects.map((project) => (
               <ProjectCard key={project.href} project={project} />
             ))}
+          </div>
+          <div className="action-grid supporting-work-grid">
+            <Link href={ukSupport.href} className="action-card">
+              <span className="action-icon">
+                <HandsIcon />
+              </span>
+              <h3>{ukSupport.title}</h3>
+              <p>{ukSupport.summary}</p>
+              <span className="text-link">
+                Read about current UK support <ArrowRightIcon />
+              </span>
+            </Link>
           </div>
         </div>
       </section>
@@ -115,7 +127,7 @@ export default function Home() {
               title="It began with a simple question: how can we help?"
             />
             <p>
-              After watching the Balkan conflict and the siege of Sarajevo,
+              After watching the Balkan conflict and the Siege of Sarajevo,
               three women travelled to Bosnia and Herzegovina with the skills
               they had: their healing hands.
             </p>

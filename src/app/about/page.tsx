@@ -5,7 +5,7 @@ import { PageHeader } from "@/components/page-header";
 import { ProjectCard } from "@/components/project-card";
 import { QuoteCard } from "@/components/quote-card";
 import { SectionHeading } from "@/components/section-heading";
-import { projects, testimonials } from "@/content/site";
+import { projects, testimonials, ukSupport } from "@/content/site";
 import { createMetadata } from "@/lib/metadata";
 
 export const metadata = createMetadata(
@@ -32,7 +32,7 @@ export default function AboutPage() {
             />
             <p className="lead">
               In the early 1990s, three women watched the Balkan conflict and
-              the siege of Sarajevo unfold and wondered what they could do.
+              the Siege of Sarajevo unfold and wondered what they could do.
             </p>
             <p>
               When the war ended in 1996, they travelled to Sarajevo. They
@@ -96,13 +96,19 @@ export default function AboutPage() {
         <div className="site-container">
           <SectionHeading
             eyebrow="Our work today"
-            title="One mission, three areas of work"
+            title="One mission, two principal areas of work"
+            intro="Sue has confirmed the charity's principal active work is now Bosnia and Herzegovina and Ukraine aid. Current UK support continues through military FABCAMPS, but is not presented as a full third programme."
             align="center"
           />
           <div className="project-grid">
             {projects.map((project) => (
               <ProjectCard key={project.href} project={project} />
             ))}
+          </div>
+          <div className="action-grid supporting-work-grid">
+            <ButtonLink href={ukSupport.href} variant="secondary">
+              Read about current UK support
+            </ButtonLink>
           </div>
         </div>
       </section>

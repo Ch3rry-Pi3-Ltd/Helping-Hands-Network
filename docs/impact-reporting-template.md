@@ -13,7 +13,7 @@ charity has confirmed the source, meaning and approval owner.
 | Field | What to record | Example format |
 | --- | --- | --- |
 | Reporting period | Date, month, quarter or trip period. | `April–June 2026` |
-| Project area | Bosnia and Herzegovina, Ukraine, UK Veterans or another approved area. | `Ukraine Aid` |
+| Project area | Bosnia and Herzegovina, Ukraine, current UK support or another approved area. | `Ukraine Aid` |
 | Activity summary | A short factual description of what happened. | `Delivered approved supplies to partner organisation` |
 | People or partners supported | Who benefited, using safe, non-identifying wording unless consent exists. | `Partner clinic`, `veterans group`, `families supported by partner` |
 | Quantity or evidence | Any number, count, document, receipt, photo, partner update or report. | `3 boxes`, `1 vehicle`, `partner email`, `receipt reference` |
@@ -57,8 +57,7 @@ For the first review with Susan, collect one safe example update for each of:
 
 1. Bosnia and Herzegovina.
 2. Ukraine aid.
-3. UK veterans.
+3. Current UK support/FABCAMPS.
 
 Each example can stay private until the charity is comfortable with the
 format.
-

@@ -17,7 +17,7 @@ basis.
 ## Possible uses
 
 - Maintain a current list of active volunteers or members.
-- Track who is interested in Bosnia, Ukraine, UK veterans or fundraising.
+- Track who is interested in Bosnia, Ukraine, current UK support or fundraising.
 - Record basic membership or renewal status.
 - Track training, availability or role interest.
 - Know who has been contacted about a specific opportunity.
@@ -30,7 +30,7 @@ basis.
 | Email | Contact and updates. | Medium | Prefer charity-approved mailing approach. |
 | Phone | Urgent contact or trip coordination. | Medium | Only collect if needed. |
 | Role/skill area | Match people to opportunities. | Low/medium | Use broad categories. |
-| Project interest | Bosnia, Ukraine, UK Veterans, fundraising, admin. | Low/medium | Useful for segmentation. |
+| Project interest | Bosnia, Ukraine, current UK support, fundraising, admin. | Low/medium | Useful for segmentation. |
 | Membership status | Know who is active/current. | Low/medium | Avoid financial detail unless required. |
 | Training status | Confirm readiness for certain roles. | Medium | Keep factual and limited. |
 | Emergency contact | Trip or fieldwork safety. | High | Only for relevant volunteers; restrict access. |
@@ -108,4 +108,3 @@ Avoid sensitive notes in the first version.
 - [ ] Agree restricted fields.
 - [ ] Agree retention and deletion rules.
 - [ ] Choose tool only after the above is complete.
-

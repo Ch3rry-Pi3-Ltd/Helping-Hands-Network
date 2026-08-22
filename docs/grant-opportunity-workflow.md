@@ -34,7 +34,8 @@ Prepare approved boilerplate once, then reuse it.
 - Charity name and registration number.
 - Short mission statement.
 - Longer charity overview.
-- Programme summaries for Bosnia and Herzegovina, Ukraine and UK Veterans.
+- Programme summaries for Bosnia and Herzegovina, Ukraine and current UK
+  support/FABCAMPS.
 - Governance summary.
 - Safeguarding/privacy statement.
 - Financial year and latest accounts link.
@@ -88,4 +89,3 @@ structure, but Susan/trustees must approve the facts.
 | Grant name | Funder | URL | Deadline | Amount | Fit | Status | Owner | Next action |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 |  |  |  |  |  |  |  |  |  |
-

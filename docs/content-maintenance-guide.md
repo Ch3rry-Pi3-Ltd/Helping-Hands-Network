@@ -33,6 +33,26 @@ deployment logs.
 For an urgent safety, privacy or legal removal, take the affected material down
 first, then document and review the corrective change.
 
+## Simple update format for Sue
+
+Sue can send future updates by email using this lightweight format. It is
+designed so she does not need to edit the website directly.
+
+```text
+Page or section:
+What needs changing:
+New wording, if known:
+Date or season affected:
+Is this approved to publish? yes/no
+Any names, photos or quotes included? yes/no
+Any consent/safeguarding concern? yes/no/unsure
+Who should approve the final preview?
+```
+
+For larger updates, attach the wording or images separately and avoid sending
+passwords, bank details, private beneficiary information or sensitive volunteer
+records.
+
 ## Where content lives
 
 - Shared contact details, navigation, programme summaries, testimonials and
@@ -75,6 +95,7 @@ The charity approver should confirm:
 - whether donations are still accepted;
 - current campaign wording and named partners;
 - the correct Gift Aid and offline-support process.
+- current Giving Lottery, Give as You Live and GoFundMe links where relevant.
 
 Email, telephone and postal details should be checked with the responsible
 person rather than tested through unsolicited messages or calls.
@@ -100,4 +121,3 @@ npm run typecheck
 NEXT_PUBLIC_SITE_URL=https://your-approved-domain.example npm run build
 npm run test:e2e
 ```
-

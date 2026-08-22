@@ -50,9 +50,15 @@ export default function UkrainePage() {
               as collaborators helping assistance reach communities across the
               country.
             </p>
+            <p>
+              Sue has advised that each Ukraine delivery trip, carrying
+              surgical, medical and humanitarian aid, generators and related
+              supplies, costs approximately £1,600.
+            </p>
             <StatusNote>
-              Current partner names, delivery activity and campaign priorities
-              need charity confirmation before launch.
+              Confirm current partner names, delivery activity, campaign
+              priorities and whether the approximate £1,600 trip cost should
+              be used in prominent fundraising copy before launch.
             </StatusNote>
           </div>
         </div>
@@ -88,6 +94,15 @@ export default function UkrainePage() {
               <p>
                 Humanitarian supplies support people facing displacement,
                 damaged homes and disrupted services.
+              </p>
+            </article>
+            <article>
+              <span>04</span>
+              <h3>Amazon wishlist</h3>
+              <p>
+                Sue has confirmed there is an Amazon wishlist, but it needs to
+                be checked for current items, availability and prices before it
+                is promoted.
               </p>
             </article>
           </div>

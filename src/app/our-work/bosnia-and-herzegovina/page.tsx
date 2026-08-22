@@ -20,7 +20,7 @@ export default function BosniaPage() {
       <PageHeader
         eyebrow="Bosnia and Herzegovina"
         title="Alongside Sarajevo since 1996"
-        intro="Free complementary therapies and gentle support for people living with the long-term physical and emotional effects of the Balkan War."
+        intro="Free complementary therapies and gentle support for people living with the long-term physical and emotional effects of the Siege of Sarajevo and the Balkan War."
       >
         <ButtonLink href="/volunteer">Volunteer with us</ButtonLink>
       </PageHeader>
@@ -44,13 +44,14 @@ export default function BosniaPage() {
               space and help improve wellbeing.
             </p>
             <p>
-              The charity has historically worked with local associations
-              supporting concentration camp survivors, civilian war victims,
-              women affected by war and families of Srebrenica.
+              Each season, local associations refer members who are most in
+              need of support. Sue has identified these as the Concentration
+              Camp Union, Civil War Victims, Women Victims of War and Mothers
+              of Srebrenica.
             </p>
             <StatusNote>
-              Current clinic dates, outreach venues, partner groups and
-              volunteer costs need charity confirmation before launch.
+              Confirm exact association names, spelling and publication
+              approval before final launch.
             </StatusNote>
           </div>
           <div className="editorial-image editorial-image-tall">
@@ -79,6 +80,20 @@ export default function BosniaPage() {
             <p>
               Therapists listen without taking sides and offer support to
               everyone who comes, regardless of background or belief.
+            </p>
+            <p>
+              The Sarajevo season usually runs from 1 May until 31 July, and
+              may be extended if enough volunteers are available.
+            </p>
+            <p>
+              Volunteers can travel for one week, two weeks, which is the
+              usual and preferred length, or longer if they are able.
+            </p>
+            <p>
+              Volunteer contributions cover flights, accommodation, basic food,
+              clinic and outreach running costs, translators, the local manager,
+              airport transfers in Sarajevo and transport to outreach venues.
+              Optional meals out, sightseeing and personal purchases are extra.
             </p>
           </div>
         </div>

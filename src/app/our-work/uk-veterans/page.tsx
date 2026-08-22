@@ -8,8 +8,8 @@ import { StatusNote } from "@/components/status-note";
 import { createMetadata } from "@/lib/metadata";
 
 export const metadata = createMetadata(
-  "UK Veterans",
-  "Learn about Healing Hands Network's complementary therapy support for UK veterans, serving personnel and families.",
+  "UK military family support",
+  "Learn about Healing Hands Network's current UK support through military FABCAMPS residential weeks.",
   "/our-work/uk-veterans",
 );
 
@@ -17,9 +17,9 @@ export default function UKVeteransPage() {
   return (
     <>
       <PageHeader
-        eyebrow="UK Veterans"
-        title="Support closer to home"
-        intro="Complementary therapy and compassionate support for veterans, serving personnel and families living with the effects of war."
+        eyebrow="UK support"
+        title="Supporting military families through FABCAMPS"
+        intro="Current UK activity is focused on providing free therapies at military charity FABCAMPS residential weeks in Wales and Scotland."
         tone="navy"
       >
         <ButtonLink href="/volunteer">Offer your skills</ButtonLink>
@@ -29,26 +29,26 @@ export default function UKVeteransPage() {
         <div className="site-container editorial-grid">
           <div>
             <SectionHeading
-              eyebrow="Why it matters"
-              title="Some effects of active service are hidden"
+              eyebrow="Current activity"
+              title="A focused UK commitment"
             />
             <p className="lead">
-              Post-traumatic stress and physical injury can affect everyday
-              life, relationships and whole families.
+              Sue has confirmed that Healing Hands Network has little or no
+              wider UK veterans work at present, following Covid.
             </p>
             <p>
-              Healing Hands Network’s UK work has brought volunteer therapists
-              into veterans’ groups and support settings, offering treatments
-              in calm, familiar environments.
+              The charity currently attends and helps at military charity
+              FABCAMPS each year. These are one-week residential activity
+              holidays in Wales and Scotland for bereaved military families,
+              created to support recovery.
             </p>
             <p>
-              The project is intended to complement specialist services,
-              working alongside organisations already supporting the armed
-              forces community.
+              Healing Hands Network provides free therapies to guests during
+              those weeks.
             </p>
             <StatusNote>
-              Current partner organisations, locations and therapist
-              requirements need charity confirmation before launch.
+              Confirm approved FABCAMPS wording, image choice and whether this
+              page should remain separate before final launch.
             </StatusNote>
           </div>
           <div className="editorial-image editorial-image-tall">
@@ -67,7 +67,7 @@ export default function UKVeteransPage() {
         <div className="site-container quote-grid">
           <QuoteCard
             quote="Before having the treatment, I found it difficult to walk because of the pain. To my amazement, afterwards I was pain free."
-            attribution="Veteran and Healing Hands Network client"
+            attribution="Healing Hands Network client"
           />
           <QuoteCard
             quote="It's very comforting to have Healing Hands at our group and to see how they bring change, hope and positive energy to our lives."
@@ -78,8 +78,8 @@ export default function UKVeteransPage() {
 
       <CtaBand
         eyebrow="Therapists needed"
-        title="Use your experience to support the armed forces community."
-        text="Ask about current UK opportunities and the experience or induction required."
+        title="Future UK opportunities depend on local volunteer coverage."
+        text="Sue has contacts at veteran support centres, monthly groups and veterans' cafés, but local members would be needed before that work could restart."
       >
         <ButtonLink href="/volunteer" variant="light">
           Learn about volunteering

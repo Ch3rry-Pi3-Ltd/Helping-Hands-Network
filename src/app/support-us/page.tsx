@@ -13,6 +13,27 @@ export const metadata = createMetadata(
 );
 
 export default function SupportPage() {
+  const sponsoredIdeas = [
+    "walk",
+    "run",
+    "jump",
+    "firewalk",
+    "climb",
+    "haircut",
+    "give something up for a month",
+  ];
+
+  const communityIdeas = [
+    "coffee morning",
+    "craft workshop with an added donation",
+    "cake sale",
+    "craft sale",
+    "garden party",
+    "Halloween party or cake sale",
+    "sewing, art or craft group collection",
+    "book sale",
+  ];
+
   return (
     <>
       <PageHeader
@@ -68,10 +89,41 @@ export default function SupportPage() {
             not been copied into this prototype.
           </p>
           <p>
-            The charity should nominate its primary online campaign and supply
-            current approved forms. No GivingLottery route was confirmed during
-            the public-site review.
+            Sue has confirmed GoFundMe is the preferred main online platform,
+            and that the charity also uses The Giving Lottery and Give as You
+            Live. The exact current links, approved promotional materials and
+            bank-transfer or Gift Aid instructions still need to be supplied
+            before final launch.
           </p>
+        </div>
+      </section>
+
+      <section className="section">
+        <div className="site-container">
+          <SectionHeading
+            eyebrow="Fundraising ideas"
+            title="Simple ways supporters could raise money"
+            intro="Sue suggested these as practical examples for supporters. The final page can be adjusted once the charity confirms preferred wording and enquiry handling."
+            align="center"
+          />
+          <div className="support-grid">
+            <article className="support-card">
+              <h2>Sponsored activities</h2>
+              <ul className="check-list">
+                {sponsoredIdeas.map((idea) => (
+                  <li key={idea}>{idea}</li>
+                ))}
+              </ul>
+            </article>
+            <article className="support-card">
+              <h2>Community fundraising</h2>
+              <ul className="check-list">
+                {communityIdeas.map((idea) => (
+                  <li key={idea}>{idea}</li>
+                ))}
+              </ul>
+            </article>
+          </div>
         </div>
       </section>
     </>

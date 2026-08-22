@@ -3,7 +3,7 @@
 This is the authoritative list of completed and outstanding work for the
 Healing Hands Network website prototype.
 
-Last reviewed: 7 July 2026.
+Last reviewed: 22 August 2026.
 
 ## Status key
 
@@ -17,7 +17,7 @@ Last reviewed: 7 July 2026.
 - [x] Build a separate Next.js App Router application using TypeScript and
       Tailwind CSS.
 - [x] Create the main pages: Home, About, Our Work, Bosnia and Herzegovina,
-      Ukraine, UK Veterans, Volunteer, Support Us, Updates and Contact.
+      Ukraine, current UK support, Volunteer, Support Us, Updates and Contact.
 - [x] Create shared navigation, footer, headings, cards, calls to action,
       buttons, icons and status-note components.
 - [x] Keep shared navigation, contact, project and support content in a local
@@ -35,18 +35,28 @@ These items block publication of the affected content.
 The questions and response fields are collected in the
 [stakeholder confirmation pack](stakeholder-confirmations.md).
 
-- [ ] Select the primary donation campaign and confirm whether the existing
-      JustGiving and GoFundMe campaigns remain active.
-- [ ] Confirm whether GivingLottery is an approved current fundraising route.
+- [x] Record Sue's 20 August 2026 website feedback and requested factual
+      corrections.
+- [x] Confirm GoFundMe as the preferred main online fundraising platform.
+- [ ] Confirm the exact preferred GoFundMe URL and whether the existing
+      GoFundMe campaign wording remains current.
+- [x] Confirm that Giving Lottery and Give as You Live are approved current
+      fundraising routes.
+- [ ] Obtain current Giving Lottery and Give as You Live links and approved
+      marketing materials.
 - [ ] Supply current standing-order, Gift Aid, membership and sponsorship
       forms, including approved handling instructions.
 - [ ] Confirm the public email address, telephone number and postal address.
-- [ ] Confirm Bosnia clinic dates, outreach venues, partner groups and
-      volunteer costs.
+- [x] Add Sue's confirmed Bosnia season, partner-association categories and
+      volunteer cost coverage.
+- [ ] Confirm exact Bosnia association names, outreach venues, spelling and
+      publication approval.
 - [ ] Confirm Ukraine partner names, current delivery activity and campaign
       priorities.
-- [ ] Confirm UK veterans partner organisations, locations and therapist
-      requirements.
+- [x] Reframe current UK activity around FABCAMPS rather than a wider active
+      UK veterans programme.
+- [ ] Confirm approved FABCAMPS wording, images and whether the UK support page
+      should remain separate.
 - [ ] Confirm volunteer membership fees, application forms, current
       opportunities and eligibility criteria.
 - [ ] Supply approved news, delivery updates, volunteer stories and event

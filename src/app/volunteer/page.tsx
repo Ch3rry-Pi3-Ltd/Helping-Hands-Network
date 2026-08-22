@@ -42,11 +42,12 @@ export default function VolunteerPage() {
               <h2>Therapist volunteers</h2>
               <p>
                 Qualified therapists trained in certified, insurable
-                modalities can ask about opportunities in the UK or Bosnia and
-                Herzegovina.
+                mainstream modalities can join to support the charity&apos;s work,
+                travel to Sarajevo when able, or become supporter members.
               </p>
               <ul className="check-list">
                 <li>Share recognised complementary therapy skills</li>
+                <li>Hold professional qualification and insurance cover</li>
                 <li>Attend relevant induction or trauma-aware training</li>
                 <li>Support projects directly or through fundraising</li>
               </ul>
@@ -68,7 +69,8 @@ export default function VolunteerPage() {
           </div>
           <StatusNote>
             Membership fees, application forms, current opportunities and
-            eligibility criteria need charity confirmation before launch.
+            detailed eligibility criteria still need charity confirmation
+            before launch.
           </StatusNote>
         </div>
       </section>

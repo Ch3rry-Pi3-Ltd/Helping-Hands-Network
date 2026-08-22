@@ -1,6 +1,6 @@
 # Donation route map
 
-Reviewed: 7 July 2026.
+Reviewed: 22 August 2026.
 
 Purpose: make every public giving route clear before the website tells people
 where to donate.
@@ -12,26 +12,20 @@ online while still needing charity confirmation.
 
 | Route | Public destination | Intended purpose to confirm | Current prototype treatment | Confirmation needed |
 | --- | --- | --- | --- | --- |
-| JustGiving Ukraine campaign | `https://www.justgiving.com/campaign/justgivingaidforukraine` | Ukraine aid and associated current priorities. | Linked as available but marked for confirmation. | Is this the primary campaign? Is the wording still current? |
-| GoFundMe Ukraine campaign | `https://www.gofundme.com/f/aid-for-ukraine-continues` | Continuing aid for Ukraine. | Linked as available but marked for confirmation. | Is the campaign still active and controlled by the charity/approved organiser? |
-| JustGiving charity profile | Public Healing Hands Network charity profile. | General donations. | Audited but not promoted as the primary route yet. | Should this be the safer default donation route? |
+| GoFundMe Ukraine campaign | `https://www.gofundme.com/f/aid-for-ukraine-continues` | Continuing aid for Ukraine. | Presented first because Sue confirmed GoFundMe is preferred due to lower costs. | Confirm this exact URL is the preferred live campaign and that the wording remains current. |
+| JustGiving charity profile | Public Healing Hands Network charity profile. | General donations. | Kept as a secondary route because Sue confirmed the charity is registered with JustGiving but does not prefer it as the main platform. | Confirm whether to keep linking to the profile. |
+| JustGiving Ukraine campaign | `https://www.justgiving.com/campaign/justgivingaidforukraine` | Ukraine aid and associated current priorities. | No longer presented as the main route. | Confirm whether to keep, demote or remove this campaign link. |
 | GoFundMe animal-shelter campaign | Public campaign observed during audit. | Specific campaign support. | Not promoted in the prototype. | Is this still current, controlled and appropriate to promote? |
-| GivingLottery | Public GivingLottery page. | Lottery-based support. | Mentioned as needing confirmation. | Is participation active and approved? What wording is required? |
-| Standing order / Gift Aid forms | Existing downloadable-form route on legacy site. | Recurring giving and Gift Aid. | Email request route only. | Supply current forms and approved handling instructions. |
+| Giving Lottery | Public Giving Lottery route to be supplied. | Lottery-based support. | Mentioned as an approved route, but asks supporters to request the current link until Sue supplies it. | Supply current link and any required lottery wording or marketing material. |
+| Give as You Live | Public Give as You Live route to be supplied. | Online shopping fundraising. | Mentioned as an approved route, but asks supporters to request the current link until Sue supplies it. | Supply current link and approved promotional wording/material. |
+| Standing order / Gift Aid forms | Existing downloadable-form route on legacy site. | Bank transfer, recurring giving and Gift Aid. | Email request route only. | Supply current forms, bank-transfer wording and approved handling instructions. |
 | Fundraising / sponsorship | Email discussion route. | Supporter-led fundraising or sponsorship. | Linked via contact email. | Confirm preferred email owner and response process. |
 
 ## Decision needed before launch
 
-Choose one primary donation action for the website header and main calls to
-action:
-
-- JustGiving campaign;
-- JustGiving charity profile;
-- GoFundMe campaign;
-- contact-first route;
-- another approved route.
-
-The current prototype avoids choosing for the charity.
+Sue has confirmed GoFundMe is the preferred main online fundraising platform.
+Before final launch, confirm the exact campaign URL and whether the current
+campaign wording remains approved.
 
 ## Tracking fields for each route
 
@@ -66,4 +60,3 @@ If the charity later wants to measure donation journeys, decide first:
 - who will review the data.
 
 Do not add invasive tracking or visitor identification.
-

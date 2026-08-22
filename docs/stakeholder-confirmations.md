@@ -2,7 +2,7 @@
 
 For: Susan and the Healing Hands Network trustees
 
-Prepared: 4 July 2026
+Prepared: 4 July 2026. Updated with Sue's first feedback on 22 August 2026.
 
 ## Purpose
 
@@ -21,14 +21,16 @@ Which destination should the main Donate and Support buttons use?
 
 - [ ] Healing Hands Network’s general JustGiving charity profile.
 - [ ] The JustGiving “Aid for Ukraine” campaign.
-- [ ] The GoFundMe “Aid for Ukraine continues” campaign.
+- [x] GoFundMe as the preferred main online fundraising platform.
 - [ ] GivingLottery.
 - [ ] A different approved route: ______________________________
 - [ ] Keep the Support Us hub as the main destination.
 
 Comments:
 
-______________________________________________________________________
+Sue confirmed on 20 August 2026 that GoFundMe is preferred because it has
+lower costs for the charity. The exact preferred GoFundMe URL and current
+campaign wording still need final confirmation.
 
 ## 2. Public fundraising pages
 
@@ -43,7 +45,7 @@ For each route, mark **Use**, **Keep but secondary**, or **Do not link**.
 [Healing Hands Network on JustGiving](https://www.justgiving.com/charity/healinghandsnetwork)
 
 - [ ] Use
-- [ ] Keep but secondary
+- [x] Keep but secondary
 - [ ] Do not link
 - [ ] The public description and charity details are approved.
 - [ ] The charity has current administrator access.
@@ -62,7 +64,7 @@ For each route, mark **Use**, **Keep but secondary**, or **Do not link**.
 
 [Aid for Ukraine continues](https://www.gofundme.com/f/aid-for-ukraine-continues)
 
-- [ ] Use
+- [x] Use as preferred main online platform, subject to exact URL confirmation
 - [ ] Keep but secondary
 - [ ] Do not link
 - [ ] The campaign remains open for donations.
@@ -83,12 +85,18 @@ For each route, mark **Use**, **Keep but secondary**, or **Do not link**.
 
 [Healing Hands Network on GivingLottery](https://www.givinglottery.org.uk/superdraw/healing-hands-network)
 
-- [ ] Use
+- [x] Use, subject to current link and required wording
 - [ ] Keep but secondary
 - [ ] Do not link
 - [ ] The charity currently participates in and approves this route.
 - [ ] The charity has current administrator access.
 - [ ] Any required lottery wording or age restriction has been reviewed.
+
+### Give as You Live
+
+- [x] Sue confirmed the charity uses Give as You Live.
+- [ ] Current public link supplied.
+- [ ] Approved promotional wording or marketing material supplied.
 
 ## 3. Forms and offline support
 
@@ -127,10 +135,13 @@ Preferred contact route for:
 
 ### Bosnia and Herzegovina
 
-- [ ] Current clinic or visit dates.
+- [x] Current season confirmed as usually 1 May to 31 July, extendable if
+      enough volunteers are available.
 - [ ] Current outreach locations.
-- [ ] Approved partner organisations.
-- [ ] Current volunteer costs and requirements.
+- [x] Partner-association categories supplied by Sue.
+- [ ] Exact partner names, spelling and permission to publish confirmed.
+- [x] Volunteer cost coverage supplied by Sue.
+- [ ] Current volunteer contribution amount, if any, confirmed.
 - [ ] Approved description of therapies currently offered.
 
 ### Ukraine
@@ -139,20 +150,28 @@ Preferred contact route for:
 - [ ] Current delivery activity.
 - [ ] Current campaign priorities and requested items.
 - [ ] Approved wording about vehicles, medical and humanitarian aid.
+- [x] Approximate delivery-trip cost supplied as £1,600.
+- [ ] Confirm whether the approximate £1,600 trip cost should be used in
+      prominent fundraising copy.
+- [ ] Amazon wishlist reviewed for current items, availability and prices.
 - [ ] Any partners or activities that should no longer be named.
 
-### UK veterans
+### Current UK support
 
-- [ ] Current partner organisations.
-- [ ] Current locations.
-- [ ] Current therapist requirements.
-- [ ] Approved description of support currently offered.
+- [x] Current UK work confirmed as FABCAMPS support in Wales and Scotland.
+- [x] Wider UK veterans work confirmed as limited/not active since Covid.
+- [ ] Approved FABCAMPS wording.
+- [ ] Confirm whether this page should remain separate or be folded into Our
+      Work.
 
 ## 6. Volunteering and membership
 
 - [ ] Current membership fees.
-- [ ] Eligibility criteria for therapist volunteers.
-- [ ] Required qualifications, insurance and checks.
+- [x] Therapist volunteers/supporter members should be professionally
+      qualified and insured in mainstream modalities.
+- [x] Non-therapists may join as supporters.
+- [ ] Detailed eligibility criteria for therapist volunteers.
+- [ ] Required checks.
 - [ ] Current induction or trauma-aware training requirements.
 - [ ] Current opportunities for non-therapist supporters.
 - [ ] The person who receives and manages enquiries.

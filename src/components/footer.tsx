@@ -38,7 +38,7 @@ export function Footer() {
               <Link href="/our-work/ukraine">Ukraine Aid</Link>
             </li>
             <li>
-              <Link href="/our-work/uk-veterans">UK Veterans</Link>
+              <Link href="/our-work/uk-veterans">UK support</Link>
             </li>
           </ul>
         </div>
