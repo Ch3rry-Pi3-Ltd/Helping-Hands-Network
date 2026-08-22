@@ -2,12 +2,13 @@ export const siteConfig = {
   name: "Healing Hands Network",
   shortName: "HHN",
   description:
-    "A UK charity helping people with the mental, physical and emotional after-effects of war.",
+    "Helping those affected by war and its aftermath in the UK and overseas.",
   mission:
     "Dedicated to the relief of suffering from the mental, physical and emotional after-effects of war.",
   charityNumber: "1080268",
   email: "healinghandsnetwork@gmail.com",
-  phone: "07815 628372",
+  adminSupportEmail: "emmahhn1@gmail.com",
+  phone: "07734 462000",
   address: [
     "Healing Hands Network",
     "151 Fillongley Road",
@@ -96,8 +97,17 @@ export const supportRoutes = [
     description:
       "Sue has confirmed GoFundMe is the charity's preferred online fundraising platform because its costs are lower for the charity.",
     href: "https://www.gofundme.com/f/aid-for-ukraine-continues",
-    label: "View GoFundMe campaign",
-    status: "Confirm the exact preferred GoFundMe URL before final launch",
+    label: "View existing GoFundMe campaign",
+    status:
+      "Latest supplied GoFundMe-style link did not resolve as a campaign; confirm the exact current URL before final launch",
+  },
+  {
+    title: "CAF Donate",
+    description:
+      "Sue supplied a CAF Donate page as a current donation route for people who want to support the charity's vital work.",
+    href: "https://cafdonate.cafonline.org/23120",
+    label: "Donate through CAF",
+    status: "Verified reachable on 22 August 2026",
   },
   {
     title: "JustGiving registration",
@@ -113,7 +123,8 @@ export const supportRoutes = [
       "Sue has confirmed the charity uses The Giving Lottery and Give as You Live online shopping fundraising.",
     href: `mailto:${siteConfig.email}?subject=Giving%20Lottery%20or%20Give%20as%20You%20Live`,
     label: "Ask for current links",
-    status: "Sue to supply current links and approved marketing materials",
+    status:
+      "Sue to supply working current links and approved marketing materials",
   },
   {
     title: "Standing order and Gift Aid",

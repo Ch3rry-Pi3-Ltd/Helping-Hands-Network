@@ -13,6 +13,7 @@ online while still needing charity confirmation.
 | Route | Public destination | Intended purpose to confirm | Current prototype treatment | Confirmation needed |
 | --- | --- | --- | --- | --- |
 | GoFundMe Ukraine campaign | `https://www.gofundme.com/f/aid-for-ukraine-continues` | Continuing aid for Ukraine. | Presented first because Sue confirmed GoFundMe is preferred due to lower costs. | Confirm this exact URL is the preferred live campaign and that the wording remains current. |
+| CAF Donate | `https://cafdonate.cafonline.org/23120` | General donations or approved charity support. | Added as a public donation route after Sue supplied the link and it returned HTTP 200. | Confirm desired prominence and wording. |
 | JustGiving charity profile | Public Healing Hands Network charity profile. | General donations. | Kept as a secondary route because Sue confirmed the charity is registered with JustGiving but does not prefer it as the main platform. | Confirm whether to keep linking to the profile. |
 | JustGiving Ukraine campaign | `https://www.justgiving.com/campaign/justgivingaidforukraine` | Ukraine aid and associated current priorities. | No longer presented as the main route. | Confirm whether to keep, demote or remove this campaign link. |
 | GoFundMe animal-shelter campaign | Public campaign observed during audit. | Specific campaign support. | Not promoted in the prototype. | Is this still current, controlled and appropriate to promote? |
@@ -23,9 +24,13 @@ online while still needing charity confirmation.
 
 ## Decision needed before launch
 
-Sue has confirmed GoFundMe is the preferred main online fundraising platform.
-Before final launch, confirm the exact campaign URL and whether the current
-campaign wording remains approved.
+Sue has confirmed GoFundMe is the preferred main online fundraising platform,
+but the latest pasted GoFundMe-style link did not resolve to a campaign when
+checked on 22 August 2026. Before final launch, confirm the exact campaign URL
+and whether the current campaign wording remains approved.
+
+Sue also supplied a working CAF Donate URL. Confirm whether it should be a
+primary or secondary route before launch.
 
 ## Tracking fields for each route
 

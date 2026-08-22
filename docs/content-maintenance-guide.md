@@ -82,6 +82,36 @@ Do not use an image solely because it appeared on the legacy website or social
 media. Optimise large images before committing them and avoid embedding private
 metadata where practical.
 
+## Photos and videos from Sue
+
+Sue can send photos and videos for review. They should be treated as candidate
+assets until permission, consent and context have been confirmed.
+
+For each photo, record:
+
+- who took or owns the photo;
+- who is identifiable in it;
+- whether everyone identifiable has consented to website use;
+- where and when it was taken, if relevant;
+- whether any location, beneficiary or safeguarding detail should be hidden;
+- preferred caption;
+- useful alternative text for screen-reader users.
+
+For each video, record:
+
+- whether it should be embedded, linked or kept offline;
+- where it is hosted or whether it still needs hosting;
+- who owns it;
+- consent for anyone identifiable;
+- whether subtitles or a transcript are needed;
+- a short description for the website;
+- any expiry/removal request.
+
+Prefer externally hosted video, such as a charity-controlled YouTube or Vimeo
+account, rather than committing large video files to the website repository.
+Do not upload raw video files to the public repository unless a specific
+publishing approach has been agreed.
+
 ## Fundraising and contact routes
 
 Check fundraising links at least quarterly and before each campaign promotion.
@@ -96,6 +126,7 @@ The charity approver should confirm:
 - current campaign wording and named partners;
 - the correct Gift Aid and offline-support process.
 - current Giving Lottery, Give as You Live and GoFundMe links where relevant.
+- CAF Donate ownership and preferred prominence where relevant.
 
 Email, telephone and postal details should be checked with the responsible
 person rather than tested through unsolicited messages or calls.

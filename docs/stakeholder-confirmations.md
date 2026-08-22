@@ -2,7 +2,7 @@
 
 For: Susan and the Healing Hands Network trustees
 
-Prepared: 4 July 2026. Updated with Sue's first feedback on 22 August 2026.
+Prepared: 4 July 2026. Updated with Sue's August 2026 feedback.
 
 ## Purpose
 
@@ -31,6 +31,9 @@ Comments:
 Sue confirmed on 20 August 2026 that GoFundMe is preferred because it has
 lower costs for the charity. The exact preferred GoFundMe URL and current
 campaign wording still need final confirmation.
+
+Sue supplied a CAF Donate link on 22 August 2026:
+`https://cafdonate.cafonline.org/23120`.
 
 ## 2. Public fundraising pages
 
@@ -70,6 +73,17 @@ For each route, mark **Use**, **Keep but secondary**, or **Do not link**.
 - [ ] The campaign remains open for donations.
 - [ ] The charity has current administrator access.
 - [ ] The campaign wording and spending purpose remain current.
+- [ ] The exact current GoFundMe URL has been supplied. The latest pasted
+      GoFundMe-style link did not resolve as a campaign when checked on
+      22 August 2026.
+
+### CAF Donate
+
+[CAF Donate](https://cafdonate.cafonline.org/23120)
+
+- [x] Sue supplied this link on 22 August 2026.
+- [x] The page returned HTTP 200 when checked.
+- [ ] Confirm desired prominence and approved wording.
 
 ### GoFundMe — Kherson animal shelter
 
@@ -118,8 +132,9 @@ ______________________________________________________________________
 
 Confirm what may be published:
 
-- [ ] Email: `healinghandsnetwork@gmail.com`
-- [ ] Telephone: `07815 628372`
+- [x] Email: `healinghandsnetwork@gmail.com`
+- [x] Admin support email: `emmahhn1@gmail.com`
+- [x] Telephone: `07734 462000`
 - [ ] Address:
       `Healing Hands Network, 151 Fillongley Road, Meriden, Coventry, CV7 7LT`
 - [ ] Facebook: `facebook.com/healinghandsnetwork`
@@ -129,6 +144,7 @@ Preferred contact route for:
 - General enquiries: _______________________________________________
 - Volunteering: ____________________________________________________
 - Donations and Gift Aid: __________________________________________
+- Admin support: `emmahhn1@gmail.com`
 - Safeguarding or sensitive enquiries: ______________________________
 
 ## 5. Current programme information
@@ -199,6 +215,15 @@ For every logo and photograph used in the preview:
 Images to remove or replace:
 
 ______________________________________________________________________
+
+Sue has offered to send photos and videos. For each new asset, confirm:
+
+- [ ] ownership/permission;
+- [ ] consent for identifiable people;
+- [ ] caption;
+- [ ] alternative text;
+- [ ] whether locations, names or sensitive details should be avoided;
+- [ ] video hosting/transcript/subtitle approach where relevant.
 
 ## 9. Website approval and maintenance
 

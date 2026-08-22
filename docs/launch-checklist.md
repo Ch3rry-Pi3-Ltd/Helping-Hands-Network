@@ -37,16 +37,24 @@ The questions and response fields are collected in the
 
 - [x] Record Sue's 20 August 2026 website feedback and requested factual
       corrections.
+- [x] Record Sue's 22 August 2026 follow-up feedback covering phone, admin
+      support, CAF Donate, media assets and social-channel guidance.
 - [x] Confirm GoFundMe as the preferred main online fundraising platform.
 - [ ] Confirm the exact preferred GoFundMe URL and whether the existing
       GoFundMe campaign wording remains current.
+- [x] Add Sue's supplied CAF Donate link.
+- [ ] Confirm that the CAF Donate page should remain prominent after final
+      donation-route review.
 - [x] Confirm that Giving Lottery and Give as You Live are approved current
       fundraising routes.
 - [ ] Obtain current Giving Lottery and Give as You Live links and approved
       marketing materials.
 - [ ] Supply current standing-order, Gift Aid, membership and sponsorship
       forms, including approved handling instructions.
-- [ ] Confirm the public email address, telephone number and postal address.
+- [x] Update public phone number to Sue's current number.
+- [x] Add admin-support email supplied by Sue.
+- [ ] Confirm postal address and preferred routing for general, admin,
+      donation and safeguarding enquiries.
 - [x] Add Sue's confirmed Bosnia season, partner-association categories and
       volunteer cost coverage.
 - [ ] Confirm exact Bosnia association names, outreach venues, spelling and
@@ -64,6 +72,10 @@ The questions and response fields are collected in the
 - [ ] Approve any impact figures or statistics before they are added.
 - [ ] Confirm ownership, consent, captions and alternative text for the logo
       and photographs currently used by the prototype.
+- [ ] Review new photos/videos from Sue and record ownership, consent,
+      captions, alternative text and hosting approach.
+- [x] Record that the charity does not support X and keep X absent from social
+      links.
 - [ ] Approve the final public website URL.
 
 ## Release-candidate preparation

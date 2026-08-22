@@ -90,10 +90,12 @@ export default function SupportPage() {
           </p>
           <p>
             Sue has confirmed GoFundMe is the preferred main online platform,
-            and that the charity also uses The Giving Lottery and Give as You
-            Live. The exact current links, approved promotional materials and
-            bank-transfer or Gift Aid instructions still need to be supplied
-            before final launch.
+            and has also supplied a working CAF Donate page. The latest
+            GoFundMe-style link in Sue&apos;s email did not resolve as a campaign
+            when checked, so the exact current GoFundMe URL still needs
+            confirmation. Giving Lottery, Give as You Live, bank-transfer and
+            Gift Aid details also need final links or instructions before
+            launch.
           </p>
         </div>
       </section>

@@ -33,6 +33,19 @@ export default function ContactPage() {
             <a href={`mailto:${siteConfig.email}`}>{siteConfig.email}</a>
           </article>
 
+          <article className="contact-card contact-card-soft">
+            <MailIcon />
+            <p className="card-kicker">Admin support</p>
+            <h2>Admin enquiries</h2>
+            <p>
+              Sue has supplied a separate admin-support contact for enquiries
+              that need practical follow-up.
+            </p>
+            <a href={`mailto:${siteConfig.adminSupportEmail}`}>
+              {siteConfig.adminSupportEmail}
+            </a>
+          </article>
+
           <article className="contact-card">
             <PhoneIcon />
             <p className="card-kicker">Phone</p>
@@ -68,8 +81,9 @@ export default function ContactPage() {
         </div>
         <div className="site-container contact-note">
           <StatusNote>
-            Phone number and postal address were taken from the current public
-            site and should be confirmed by the charity before launch.
+            Phone number updated from Sue&apos;s latest feedback. Postal address
+            and preferred enquiry routing should still be confirmed before
+            final launch.
           </StatusNote>
         </div>
       </section>
