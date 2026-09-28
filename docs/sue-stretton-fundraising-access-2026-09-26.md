@@ -40,3 +40,14 @@ The two stable public fundraising pages can be linked without embedding
 third-party content or requiring administrative access. Any future embed,
 downloaded marketing asset or time-limited campaign creative should be reviewed
 for accessibility, expiry, consent and required provider wording first.
+
+## Website implementation — 28 September 2026
+
+- Added accessible promotional panels for GivingLottery and Give as You Live.
+- Added locally rendered QR codes that encode stable, verified public HHN
+  destinations without contacting an external QR-code service.
+- Added the dedicated Give as You Live page for one-off and monthly donations.
+- Added GivingLottery 18+, Great Britain and responsible-gambling wording.
+- Did not embed an entire fundraising page or reproduce tracked email artwork.
+- CAF Donate and GoFundMe widgets remain pending because their official embed
+  code must be generated from the relevant charity account or chosen campaign.

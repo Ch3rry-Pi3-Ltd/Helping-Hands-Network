@@ -91,6 +91,15 @@ export const testimonials = [
   },
 ] as const;
 
+export const fundraisingDestinations = {
+  givingLottery:
+    "https://www.givinglottery.org.uk/support/healing-hands-network",
+  giveAsYouLive:
+    "https://www.giveasyoulive.com/charity/healinghandsnetwork",
+  giveAsYouLiveDonate:
+    "https://donate.giveasyoulive.com/charity/healinghandsnetwork",
+} as const;
+
 export const supportRoutes = [
   {
     title: "GoFundMe profile",
@@ -120,7 +129,7 @@ export const supportRoutes = [
     title: "GivingLottery",
     description:
       "Support Healing Hands Network through its official GivingLottery page and help provide regular fundraising income for the charity.",
-    href: "https://www.givinglottery.org.uk/support/healing-hands-network",
+    href: fundraisingDestinations.givingLottery,
     label: "Play GivingLottery",
     status: "Official charity page verified reachable on 28 September 2026",
   },
@@ -128,7 +137,7 @@ export const supportRoutes = [
     title: "Give as You Live",
     description:
       "Raise free donations for Healing Hands Network when shopping online with participating retailers, at no extra cost to you.",
-    href: "https://www.giveasyoulive.com/charity/healinghandsnetwork",
+    href: fundraisingDestinations.giveAsYouLive,
     label: "Shop and raise",
     status: "Official charity page verified reachable on 28 September 2026",
   },

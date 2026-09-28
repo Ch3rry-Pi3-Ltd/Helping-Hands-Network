@@ -1,9 +1,10 @@
 import { ButtonLink } from "@/components/button-link";
+import { FundraisingPromotion } from "@/components/fundraising-promotion";
 import { HeartIcon } from "@/components/icons";
 import { PageHeader } from "@/components/page-header";
 import { SectionHeading } from "@/components/section-heading";
 import { StatusNote } from "@/components/status-note";
-import { supportRoutes } from "@/content/site";
+import { fundraisingDestinations, supportRoutes } from "@/content/site";
 import { createMetadata } from "@/lib/metadata";
 
 export const metadata = createMetadata(
@@ -72,6 +73,73 @@ export default function SupportPage() {
                 </article>
               );
             })}
+          </div>
+        </div>
+      </section>
+
+      <section className="section section-soft">
+        <div className="site-container">
+          <SectionHeading
+            eyebrow="Featured fundraising partners"
+            title="Support HHN while you play or shop"
+            intro="These verified external services provide two additional ways to raise funds. Scan a code from another device or use the accessible links provided."
+            align="center"
+          />
+
+          <div className="fundraising-promotion-grid">
+            <FundraisingPromotion
+              provider="GivingLottery"
+              title="A weekly chance to help Healing Hands Network"
+              description="Choose Healing Hands Network when buying a GivingLottery ticket and part of every ticket will support the charity's work."
+              qrValue={fundraisingDestinations.givingLottery}
+              qrLabel="Scan with another device to open the official HHN GivingLottery page."
+              tone="lottery"
+              actions={[
+                {
+                  href: fundraisingDestinations.givingLottery,
+                  label: "Play GivingLottery",
+                  variant: "light",
+                },
+              ]}
+            >
+              <p>
+                18+. Great Britain only. Always play responsibly. If gambling
+                is causing concern, visit{" "}
+                <a
+                  href="https://www.gambleaware.org/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  GambleAware
+                </a>
+                .
+              </p>
+            </FundraisingPromotion>
+
+            <FundraisingPromotion
+              provider="Give as You Live"
+              title="Turn everyday shopping into free donations"
+              description="Shop online through Give as You Live and participating retailers can make a donation to Healing Hands Network at no extra cost to you."
+              qrValue={fundraisingDestinations.giveAsYouLiveDonate}
+              qrLabel="Scan with another device for HHN donation and fundraising options."
+              tone="shopping"
+              actions={[
+                {
+                  href: fundraisingDestinations.giveAsYouLive,
+                  label: "Shop and raise",
+                },
+                {
+                  href: fundraisingDestinations.giveAsYouLiveDonate,
+                  label: "Donate through Give as You Live",
+                  variant: "secondary",
+                },
+              ]}
+            >
+              <p>
+                Give as You Live also offers secure one-off and monthly
+                donations through its dedicated Healing Hands Network page.
+              </p>
+            </FundraisingPromotion>
           </div>
         </div>
       </section>

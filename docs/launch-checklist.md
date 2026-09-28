@@ -52,9 +52,15 @@ The questions and response fields are collected in the
       Give as You Live public links.
 - [x] Receive the initial GivingLottery and Give as You Live marketing-resource
       information from Sue.
-- [ ] Select and approve any specific platform marketing assets, required
-      lottery wording and age/responsible-gambling treatment before embedding
-      or reproducing them.
+- [x] Add accessible GivingLottery and Give as You Live promotional panels
+      using stable public destinations and locally rendered QR codes.
+- [x] Include GivingLottery age, location and responsible-gambling wording.
+- [ ] Select and approve any specific provider-supplied artwork before
+      downloading or reproducing it on the website.
+- [ ] Obtain the official CAF Donate widget code from the charity account if
+      the embedded donation form is approved.
+- [ ] Select a current GoFundMe campaign and obtain its widget code if a
+      campaign-specific panel is approved.
 - [ ] Supply current standing-order, Gift Aid, membership and sponsorship
       forms, including approved handling instructions.
 - [x] Update public phone number to Sue's current number.

@@ -74,6 +74,39 @@ test.describe("public website", () => {
     await expect(page.getByRole("link", { name: "Return home" })).toBeVisible();
   });
 
+  test("support page presents verified fundraising partner routes", async ({
+    page,
+  }) => {
+    await page.goto("/support-us");
+
+    await expect(
+      page.getByRole("heading", {
+        level: 3,
+        name: "A weekly chance to help Healing Hands Network",
+      }),
+    ).toBeVisible();
+    await expect(
+      page.getByRole("heading", {
+        level: 3,
+        name: "Turn everyday shopping into free donations",
+      }),
+    ).toBeVisible();
+
+    await expect(
+      page.getByRole("link", { name: "Play GivingLottery" }).last(),
+    ).toHaveAttribute(
+      "href",
+      "https://www.givinglottery.org.uk/support/healing-hands-network",
+    );
+    await expect(
+      page.getByRole("link", { name: "Donate through Give as You Live" }),
+    ).toHaveAttribute(
+      "href",
+      "https://donate.giveasyoulive.com/charity/healinghandsnetwork",
+    );
+    await expect(page.locator("[data-qr-destination]")).toHaveCount(2);
+  });
+
   test("responses include the expected security headers", async ({
     request,
   }) => {
