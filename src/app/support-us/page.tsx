@@ -91,9 +91,10 @@ export default function SupportPage() {
           <p>
             Sue has confirmed GoFundMe is the preferred main online platform,
             and the prototype now links to the Healing Hands Network GoFundMe
-            profile. Sue has also supplied a working CAF Donate page. Giving
-            Lottery, Give as You Live, bank-transfer and Gift Aid details still
-            need final links or instructions before launch.
+            profile. Sue has also supplied a working CAF Donate page and
+            confirmed the charity&apos;s GivingLottery and Give as You Live
+            pages. Bank-transfer and Gift Aid details still need final forms or
+            instructions before launch.
           </p>
         </div>
       </section>

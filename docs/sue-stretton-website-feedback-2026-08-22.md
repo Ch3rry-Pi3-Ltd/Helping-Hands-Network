@@ -95,8 +95,9 @@ Implemented in the website and supporting project documentation.
   "Helping those affected by war and its aftermath in the UK and overseas."
 - Updated GoFundMe to use the Healing Hands Network profile URL supplied by
   Roger: <https://www.gofundme.com/u/healing-hands-network>.
-- Kept Giving Lottery/Give as You Live marked as awaiting working links and
-  approved promotional material.
+- GivingLottery and Give as You Live were initially kept as awaiting working
+  links. Their stable public HHN pages were verified and added on 28 September
+  2026; specific reproduced or embedded promotional assets still need approval.
 - Recorded that the charity does not support X; no X/Twitter social link is
   present on the website.
 - Added photo/video submission guidance to the content-maintenance process.
@@ -105,8 +106,8 @@ Implemented in the website and supporting project documentation.
 
 - Confirmation that the charity has administrator access to the GoFundMe
   profile and that the visible profile/campaign wording remains current.
-- Working Giving Lottery page URL and any required wording.
-- Give as You Live page URL and approved wording.
+- Selection and approval of any GivingLottery or Give as You Live marketing
+  assets that will be reproduced or embedded on the website.
 - Confirmation that the CAF Donate page should be a prominent donation route.
 - Current bank-transfer wording and Gift Aid form/instructions.
 - Photo files, video files or video links.

@@ -1,6 +1,6 @@
 # Donation route map
 
-Reviewed: 22 August 2026.
+Reviewed: 28 September 2026.
 
 Purpose: make every public giving route clear before the website tells people
 where to donate.
@@ -17,8 +17,8 @@ online while still needing charity confirmation.
 | JustGiving charity profile | Public Healing Hands Network charity profile. | General donations. | Kept as a secondary route because Sue confirmed the charity is registered with JustGiving but does not prefer it as the main platform. | Confirm whether to keep linking to the profile. |
 | JustGiving Ukraine campaign | `https://www.justgiving.com/campaign/justgivingaidforukraine` | Ukraine aid and associated current priorities. | No longer presented as the main route. | Confirm whether to keep, demote or remove this campaign link. |
 | GoFundMe animal-shelter campaign | Public campaign observed during audit. | Specific campaign support. | Not promoted in the prototype. | Is this still current, controlled and appropriate to promote? |
-| Giving Lottery | Public Giving Lottery route to be supplied. | Lottery-based support. | Mentioned as an approved route, but asks supporters to request the current link until Sue supplies it. | Supply current link and any required lottery wording or marketing material. |
-| Give as You Live | Public Give as You Live route to be supplied. | Online shopping fundraising. | Mentioned as an approved route, but asks supporters to request the current link until Sue supplies it. | Supply current link and approved promotional wording/material. |
+| GivingLottery | `https://www.givinglottery.org.uk/support/healing-hands-network` | Lottery-based support. | Linked directly from Support Us after the official HHN page returned HTTP 200 on 28 September 2026. | Review any required lottery wording, age restrictions and selected marketing assets before embedding or reproducing them. |
+| Give as You Live | `https://www.giveasyoulive.com/charity/healinghandsnetwork` | Free donations generated through supporters' online shopping. | Linked directly from Support Us after the official HHN page returned HTTP 200 on 28 September 2026. | Select and approve any branded promotional assets before reproducing them on the website. |
 | Standing order / Gift Aid forms | Existing downloadable-form route on legacy site. | Bank transfer, recurring giving and Gift Aid. | Email request route only. | Supply current forms, bank-transfer wording and approved handling instructions. |
 | Fundraising / sponsorship | Email discussion route. | Supporter-led fundraising or sponsorship. | Linked via contact email. | Confirm preferred email owner and response process. |
 
@@ -31,6 +31,11 @@ wording remains approved.
 
 Sue also supplied a working CAF Donate URL. Confirm whether it should be a
 primary or secondary route before launch.
+
+The official GivingLottery and Give as You Live charity pages are now linked
+directly. Sue also forwarded each platform's marketing resources in September
+2026. Provider email tracking links must not be used as permanent public URLs;
+only the stable charity-page destinations above should be published.
 
 ## Tracking fields for each route
 

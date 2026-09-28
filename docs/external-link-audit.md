@@ -1,6 +1,6 @@
 # External link and contact-route audit
 
-Checked: 5 July 2026. Updated with Sue's 22 August 2026 links.
+Checked: 5 July 2026. Updated with Sue's 22 August and 26 September 2026 links.
 
 This audit checks technical reachability and visible destination identity. It
 does not prove ownership, charity approval, factual accuracy or that money
@@ -13,6 +13,8 @@ should be directed to a campaign.
 | [Facebook](https://www.facebook.com/healinghandsnetwork) | HTTP 200 | Page identifies itself as Healing Hands Network. | Confirm administrator access and that the page remains approved. |
 | [CAF Donate](https://cafdonate.cafonline.org/23120) | HTTP 200 on 22 August 2026 | Sue supplied this as a donation route and the page was reachable. | Confirm desired prominence and approved wording. |
 | [GoFundMe profile](https://www.gofundme.com/u/healing-hands-network) | HTTP 200 on 22 August 2026 | Page title identifies it as Healing Hands Network's GoFundMe profile. | Confirm administrator access and that the profile/campaign wording remains current. |
+| [GivingLottery](https://www.givinglottery.org.uk/support/healing-hands-network) | HTTP 200 on 28 September 2026 | Stable supporter route identifies Healing Hands Network as the supported cause. | Review required lottery wording, age restrictions and responsible-gambling presentation. |
+| [Give as You Live](https://www.giveasyoulive.com/charity/healinghandsnetwork) | HTTP 200 on 28 September 2026 | Page title identifies it as Healing Hands Network's Give as You Live charity page. | Select and approve any branded promotional assets before reproducing them. |
 | [JustGiving — Aid for Ukraine](https://www.justgiving.com/campaign/justgivingaidforukraine) | HTTP 200 | Page identifies the campaign and Healing Hands Network; its structured page data reports an active status. | Campaign wording concerns older activity and must be approved before launch. |
 | [GoFundMe — Aid for Ukraine continues](https://www.gofundme.com/f/aid-for-ukraine-continues) | HTTP 200 | Page names Susan Stretton as organiser and Healing Hands Network as beneficiary; a donation action is displayed. | Confirm current control, purpose and whether it should remain promoted. |
 
@@ -22,7 +24,6 @@ should be directed to a campaign.
 | --- | --- | --- | --- |
 | [JustGiving charity profile](https://www.justgiving.com/charity/healinghandsnetwork) | HTTP 200 | Page identifies Healing Hands Network and its public page data reports an active charity profile. | Confirm administrator access and whether this should be the primary destination. |
 | [GoFundMe — Kherson animal shelter](https://www.gofundme.com/f/help-for-ukraine-kherson-irina-dog-and-cat-shelter) | HTTP 200 | Page identifies Healing Hands Network as organiser and shows recent dated updates. | Confirm current need, control and whether the charity wants it linked. |
-| [GivingLottery](https://www.givinglottery.org.uk/superdraw/healing-hands-network) | HTTP 200 | Route displays Healing Hands Network within the current Super Draw page. | Confirm participation, control and any required lottery wording or age restrictions. |
 
 ## Links supplied by Sue on 22 August 2026
 

@@ -117,13 +117,20 @@ export const supportRoutes = [
     status: "Keep as a secondary route unless Sue asks otherwise",
   },
   {
-    title: "Giving Lottery and Give as You Live",
+    title: "GivingLottery",
     description:
-      "Sue has confirmed the charity uses The Giving Lottery and Give as You Live online shopping fundraising.",
-    href: `mailto:${siteConfig.email}?subject=Giving%20Lottery%20or%20Give%20as%20You%20Live`,
-    label: "Ask for current links",
-    status:
-      "Sue to supply working current links and approved marketing materials",
+      "Support Healing Hands Network through its official GivingLottery page and help provide regular fundraising income for the charity.",
+    href: "https://www.givinglottery.org.uk/support/healing-hands-network",
+    label: "Play GivingLottery",
+    status: "Official charity page verified reachable on 28 September 2026",
+  },
+  {
+    title: "Give as You Live",
+    description:
+      "Raise free donations for Healing Hands Network when shopping online with participating retailers, at no extra cost to you.",
+    href: "https://www.giveasyoulive.com/charity/healinghandsnetwork",
+    label: "Shop and raise",
+    status: "Official charity page verified reachable on 28 September 2026",
   },
   {
     title: "Standing order and Gift Aid",

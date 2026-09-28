@@ -2,7 +2,7 @@
 
 For: Susan and the Healing Hands Network trustees
 
-Prepared: 4 July 2026. Updated with Sue's August 2026 feedback.
+Prepared: 4 July 2026. Updated with Sue's August and September 2026 feedback.
 
 ## Purpose
 
@@ -95,20 +95,26 @@ For each route, mark **Use**, **Keep but secondary**, or **Do not link**.
 
 ### GivingLottery
 
-[Healing Hands Network on GivingLottery](https://www.givinglottery.org.uk/superdraw/healing-hands-network)
+[Healing Hands Network on GivingLottery](https://www.givinglottery.org.uk/support/healing-hands-network)
 
-- [x] Use, subject to current link and required wording
+- [x] Use the stable HHN supporter page, subject to required wording
 - [ ] Keep but secondary
 - [ ] Do not link
-- [ ] The charity currently participates in and approves this route.
-- [ ] The charity has current administrator access.
+- [x] The charity currently participates in and approves this route.
+- [x] The public page returned HTTP 200 on 28 September 2026.
+- [ ] Roger has accepted the individual administrator invitation received on
+      26 September 2026.
 - [ ] Any required lottery wording or age restriction has been reviewed.
 
 ### Give as You Live
 
+[Healing Hands Network on Give as You Live](https://www.giveasyoulive.com/charity/healinghandsnetwork)
+
 - [x] Sue confirmed the charity uses Give as You Live.
-- [ ] Current public link supplied.
-- [ ] Approved promotional wording or marketing material supplied.
+- [x] The public charity page returned HTTP 200 on 28 September 2026.
+- [x] Sue forwarded the platform's Shopping and Fundraising Toolkit email.
+- [ ] Individual charity-admin access for Roger and Lucy has been confirmed.
+- [ ] Specific promotional assets and wording have been selected and approved.
 
 ## 3. Forms and offline support
 

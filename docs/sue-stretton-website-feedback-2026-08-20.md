@@ -165,7 +165,7 @@ Sue is very positive about the refreshed design and approach and is keen for the
 | High | Correct the Sarajevo title, number of main work areas and principal fundraising platform. | GoFundMe profile URL supplied and used in the 22 August 2026 follow-up update. |
 | High | Rework the UK veterans content so FABCAMPS is accurately described without implying a wider active programme. | Confirm approved wording and whether the page should remain separate. |
 | High | Update the Bosnia programme and volunteer information. | Confirm terminology, costs and whether all named associations may be published. |
-| Medium | Add Giving Lottery and Give as You Live routes. | Sue to provide links and approved marketing assets. |
+| Medium | Add GivingLottery and Give as You Live routes. | Stable public links added on 28 September 2026; specific reproduced or embedded marketing assets still require selection and approval. |
 | Medium | Expand fundraising and sponsorship ideas. | Agree which ideas should appear publicly and how enquiries should be handled. |
 | Medium | Update the Ukraine support content with the approximate trip cost. | Confirm that the £1,600 figure is current and suitable for publication. |
 | Medium | Clarify therapist, volunteer and supporter membership routes. | Confirm qualifications, insurance evidence, application process and enquiry recipient. |
@@ -232,8 +232,10 @@ Implemented in commit `7ca4b49` — `Implement Sue website feedback`.
 
 - Confirmation that the GoFundMe profile/campaign wording remains current and
   that the charity has administrator access.
-- Giving Lottery link and any required wording or marketing material.
-- Give as You Live link and approved promotional material.
+- Selection and approval of any GivingLottery wording or marketing asset that
+  will be reproduced or embedded on the website.
+- Selection and approval of any Give as You Live promotional asset that will
+  be reproduced or embedded on the website.
 - Current bank-transfer wording, Gift Aid form and handling instructions.
 - Current membership forms, fees and detailed eligibility requirements.
 - Confirmation that all Bosnia association names are spelt correctly and may

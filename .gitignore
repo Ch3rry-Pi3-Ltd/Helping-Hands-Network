@@ -13,6 +13,7 @@
 # local files
 .DS_Store
 *.pem
+/.secrets/
 
 # debug
 npm-debug.log*

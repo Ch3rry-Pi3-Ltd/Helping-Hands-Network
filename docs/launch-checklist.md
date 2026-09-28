@@ -48,8 +48,13 @@ The questions and response fields are collected in the
       donation-route review.
 - [x] Confirm that Giving Lottery and Give as You Live are approved current
       fundraising routes.
-- [ ] Obtain current Giving Lottery and Give as You Live links and approved
-      marketing materials.
+- [x] Obtain and verify the stable Healing Hands Network GivingLottery and
+      Give as You Live public links.
+- [x] Receive the initial GivingLottery and Give as You Live marketing-resource
+      information from Sue.
+- [ ] Select and approve any specific platform marketing assets, required
+      lottery wording and age/responsible-gambling treatment before embedding
+      or reproducing them.
 - [ ] Supply current standing-order, Gift Aid, membership and sponsorship
       forms, including approved handling instructions.
 - [x] Update public phone number to Sue's current number.
