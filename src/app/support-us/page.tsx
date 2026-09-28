@@ -4,7 +4,11 @@ import { HeartIcon } from "@/components/icons";
 import { PageHeader } from "@/components/page-header";
 import { SectionHeading } from "@/components/section-heading";
 import { StatusNote } from "@/components/status-note";
-import { fundraisingDestinations, supportRoutes } from "@/content/site";
+import {
+  fundraisingDestinations,
+  siteConfig,
+  supportRoutes,
+} from "@/content/site";
 import { createMetadata } from "@/lib/metadata";
 
 export const metadata = createMetadata(
@@ -48,10 +52,10 @@ export default function SupportPage() {
           <SectionHeading
             eyebrow="Ways to give"
             title="Choose the route that works for you"
-            intro="This prototype does not process payments. It only links to public campaigns or opens a conversation with the charity."
+            intro="Online payments are completed securely on the fundraising provider's website. You can also contact the charity about offline giving or organising your own fundraiser."
             align="center"
           />
-          <div className="support-grid">
+          <div className="support-grid support-route-grid">
             {supportRoutes.map((route) => {
               const external = route.href.startsWith("http");
 
@@ -147,23 +151,25 @@ export default function SupportPage() {
       <section className="section section-warm">
         <div className="site-container narrow-content">
           <SectionHeading
-            eyebrow="Before this page goes live"
-            title="Donation routes need one final charity check"
+            eyebrow="Offline giving"
+            title="Bank transfer and Gift Aid"
           />
           <p>
-            The legacy website also references old downloadable membership,
-            donation, standing order, sponsorship, Gift Aid and collecting-tin
-            forms. Those files may contain outdated information, so they have
-            not been copied into this prototype.
+            Healing Hands Network also welcomes support by standing order or
+            bank transfer. Please contact the charity for its current payment
+            instructions or to request a Gift Aid declaration.
           </p>
           <p>
-            Sue has confirmed GoFundMe is the preferred main online platform,
-            and the prototype now links to the Healing Hands Network GoFundMe
-            profile. Sue has also supplied a working CAF Donate page and
-            confirmed the charity&apos;s GivingLottery and Give as You Live
-            pages. Bank-transfer and Gift Aid details still need final forms or
-            instructions before launch.
+            Older downloadable forms are being reviewed before they are
+            republished. This helps ensure supporters receive the correct
+            charity and banking information.
           </p>
+          <ButtonLink
+            href={`mailto:${siteConfig.email}?subject=Standing%20order%20or%20Gift%20Aid`}
+            variant="secondary"
+          >
+            Request current giving information
+          </ButtonLink>
         </div>
       </section>
 

@@ -54,6 +54,10 @@ The questions and response fields are collected in the
       information from Sue.
 - [x] Add accessible GivingLottery and Give as You Live promotional panels
       using stable public destinations and locally rendered QR codes.
+- [x] Remove the earlier duplicate GivingLottery and Give as You Live cards so
+      each route has one clear presentation and call to action.
+- [x] Replace internal verification notes and pre-launch language on Support Us
+      with concise supporter-facing explanations.
 - [x] Include GivingLottery age, location and responsible-gambling wording.
 - [ ] Select and approve any specific provider-supplied artwork before
       downloading or reproducing it on the website.

@@ -102,52 +102,36 @@ export const fundraisingDestinations = {
 
 export const supportRoutes = [
   {
-    title: "GoFundMe profile",
+    title: "GoFundMe",
     description:
-      "Sue has confirmed GoFundMe is the charity's preferred online fundraising platform because its costs are lower for the charity.",
+      "Browse Healing Hands Network's current fundraising appeals through the charity's preferred online fundraising platform.",
     href: "https://www.gofundme.com/u/healing-hands-network",
     label: "View GoFundMe profile",
-    status: "Profile URL supplied by Roger and verified reachable on 22 August 2026",
+    status: "Preferred online fundraising route",
   },
   {
     title: "CAF Donate",
     description:
-      "Sue supplied a CAF Donate page as a current donation route for people who want to support the charity's vital work.",
+      "Make a donation through Healing Hands Network's secure CAF Donate page.",
     href: "https://cafdonate.cafonline.org/23120",
     label: "Donate through CAF",
-    status: "Verified reachable on 22 August 2026",
+    status: "Secure external donation page",
   },
   {
-    title: "JustGiving registration",
+    title: "JustGiving",
     description:
-      "Healing Hands Network is registered with JustGiving, but Sue has confirmed it is not the charity's main fundraising platform.",
+      "Healing Hands Network is also registered with JustGiving for supporters who prefer to donate through that service.",
     href: "https://www.justgiving.com/charity/healinghandsnetwork",
     label: "View JustGiving profile",
-    status: "Keep as a secondary route unless Sue asks otherwise",
-  },
-  {
-    title: "GivingLottery",
-    description:
-      "Support Healing Hands Network through its official GivingLottery page and help provide regular fundraising income for the charity.",
-    href: fundraisingDestinations.givingLottery,
-    label: "Play GivingLottery",
-    status: "Official charity page verified reachable on 28 September 2026",
-  },
-  {
-    title: "Give as You Live",
-    description:
-      "Raise free donations for Healing Hands Network when shopping online with participating retailers, at no extra cost to you.",
-    href: fundraisingDestinations.giveAsYouLive,
-    label: "Shop and raise",
-    status: "Official charity page verified reachable on 28 September 2026",
+    status: "Additional online giving option",
   },
   {
     title: "Standing order and Gift Aid",
     description:
-      "Supporters can donate by bank transfer and request a Gift Aid form. Current public instructions should be supplied by the charity.",
+      "Contact the charity for its current bank-transfer instructions or to request a Gift Aid form.",
     href: `mailto:${siteConfig.email}?subject=Standing%20order%20or%20Gift%20Aid`,
-    label: "Request the current forms",
-    status: "Current documents to be confirmed",
+    label: "Request giving information",
+    status: "Email HHN for the current instructions",
   },
   {
     title: "Fundraising and sponsorship",
@@ -155,6 +139,6 @@ export const supportRoutes = [
       "Supporters can organise fundraising, sponsor aspects of the work or offer practical help.",
     href: `mailto:${siteConfig.email}?subject=Fundraising%20or%20sponsorship`,
     label: "Discuss supporting HHN",
-    status: "Contact route confirmed",
+    status: "Contact the charity to get started",
   },
 ] as const;

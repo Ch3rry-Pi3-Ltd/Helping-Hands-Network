@@ -17,8 +17,8 @@ online while still needing charity confirmation.
 | JustGiving charity profile | Public Healing Hands Network charity profile. | General donations. | Kept as a secondary route because Sue confirmed the charity is registered with JustGiving but does not prefer it as the main platform. | Confirm whether to keep linking to the profile. |
 | JustGiving Ukraine campaign | `https://www.justgiving.com/campaign/justgivingaidforukraine` | Ukraine aid and associated current priorities. | No longer presented as the main route. | Confirm whether to keep, demote or remove this campaign link. |
 | GoFundMe animal-shelter campaign | Public campaign observed during audit. | Specific campaign support. | Not promoted in the prototype. | Is this still current, controlled and appropriate to promote? |
-| GivingLottery | `https://www.givinglottery.org.uk/support/healing-hands-network` | Lottery-based support. | Linked directly and presented in an accessible promotional panel with a locally rendered QR code. The panel includes 18+, Great Britain and responsible-gambling wording. | Select and approve any provider-supplied artwork before reproducing it. |
-| Give as You Live | `https://www.giveasyoulive.com/charity/healinghandsnetwork` and `https://donate.giveasyoulive.com/charity/healinghandsnetwork` | Free donations generated through supporters' online shopping, plus one-off or monthly donations. | The shopping route and dedicated HHN donation page are linked from an accessible promotional panel. A locally rendered QR code opens the donation and fundraising page. | Select and approve any provider-supplied artwork before reproducing it. |
+| GivingLottery | `https://www.givinglottery.org.uk/support/healing-hands-network` | Lottery-based support. | Presented once, in an accessible promotional panel with a locally rendered QR code. The panel includes 18+, Great Britain and responsible-gambling wording. | Select and approve any provider-supplied artwork before reproducing it. |
+| Give as You Live | `https://www.giveasyoulive.com/charity/healinghandsnetwork` and `https://donate.giveasyoulive.com/charity/healinghandsnetwork` | Free donations generated through supporters' online shopping, plus one-off or monthly donations. | The shopping route and dedicated HHN donation page are presented once in an accessible promotional panel. A locally rendered QR code opens the donation and fundraising page. | Select and approve any provider-supplied artwork before reproducing it. |
 | Standing order / Gift Aid forms | Existing downloadable-form route on legacy site. | Bank transfer, recurring giving and Gift Aid. | Email request route only. | Supply current forms, bank-transfer wording and approved handling instructions. |
 | Fundraising / sponsorship | Email discussion route. | Supporter-led fundraising or sponsorship. | Linked via contact email. | Confirm preferred email owner and response process. |
 
@@ -34,6 +34,8 @@ primary or secondary route before launch.
 
 The official GivingLottery and Give as You Live charity pages are now linked
 directly and presented in promotional panels with locally rendered QR codes.
+The earlier small cards for the same two routes were removed to avoid repeated
+links and competing calls to action.
 Sue also forwarded each platform's marketing resources in September 2026.
 Provider email tracking links must not be used as permanent public URLs; only
 the stable charity-page destinations above should be published.

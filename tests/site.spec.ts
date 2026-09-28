@@ -93,10 +93,16 @@ test.describe("public website", () => {
     ).toBeVisible();
 
     await expect(
-      page.getByRole("link", { name: "Play GivingLottery" }).last(),
+      page.getByRole("link", { name: "Play GivingLottery" }),
     ).toHaveAttribute(
       "href",
       "https://www.givinglottery.org.uk/support/healing-hands-network",
+    );
+    await expect(
+      page.getByRole("link", { name: "Play GivingLottery" }),
+    ).toHaveCount(1);
+    await expect(page.getByRole("link", { name: "Shop and raise" })).toHaveCount(
+      1,
     );
     await expect(
       page.getByRole("link", { name: "Donate through Give as You Live" }),
@@ -105,6 +111,15 @@ test.describe("public website", () => {
       "https://donate.giveasyoulive.com/charity/healinghandsnetwork",
     );
     await expect(page.locator("[data-qr-destination]")).toHaveCount(2);
+    await expect(
+      page.locator(".support-route-grid .support-card"),
+    ).toHaveCount(5);
+    await expect(
+      page.getByRole("heading", { level: 2, name: "GivingLottery" }),
+    ).toHaveCount(0);
+    await expect(
+      page.getByRole("heading", { level: 2, name: "Give as You Live" }),
+    ).toHaveCount(0);
   });
 
   test("responses include the expected security headers", async ({
