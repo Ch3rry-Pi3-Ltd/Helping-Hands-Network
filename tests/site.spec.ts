@@ -113,7 +113,15 @@ test.describe("public website", () => {
     await expect(page.locator("[data-qr-destination]")).toHaveCount(2);
     await expect(
       page.locator(".support-route-grid .support-card"),
-    ).toHaveCount(5);
+    ).toHaveCount(4);
+    await expect(
+      page.getByRole("link", { name: "Request current giving information" }),
+    ).toHaveCount(1);
+    await expect(
+      page.locator(
+        'a[href="mailto:healinghandsnetwork@gmail.com?subject=Standing%20order%20or%20Gift%20Aid"]',
+      ),
+    ).toHaveCount(1);
     await expect(
       page.getByRole("heading", { level: 2, name: "GivingLottery" }),
     ).toHaveCount(0);

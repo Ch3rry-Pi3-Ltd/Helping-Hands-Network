@@ -56,6 +56,8 @@ The questions and response fields are collected in the
       using stable public destinations and locally rendered QR codes.
 - [x] Remove the earlier duplicate GivingLottery and Give as You Live cards so
       each route has one clear presentation and call to action.
+- [x] Remove the duplicate standing-order and Gift Aid card, retaining the
+      dedicated offline-giving section and its single contact link.
 - [x] Replace internal verification notes and pre-launch language on Support Us
       with concise supporter-facing explanations.
 - [x] Include GivingLottery age, location and responsible-gambling wording.

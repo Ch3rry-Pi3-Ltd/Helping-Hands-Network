@@ -126,14 +126,6 @@ export const supportRoutes = [
     status: "Additional online giving option",
   },
   {
-    title: "Standing order and Gift Aid",
-    description:
-      "Contact the charity for its current bank-transfer instructions or to request a Gift Aid form.",
-    href: `mailto:${siteConfig.email}?subject=Standing%20order%20or%20Gift%20Aid`,
-    label: "Request giving information",
-    status: "Email HHN for the current instructions",
-  },
-  {
     title: "Fundraising and sponsorship",
     description:
       "Supporters can organise fundraising, sponsor aspects of the work or offer practical help.",
