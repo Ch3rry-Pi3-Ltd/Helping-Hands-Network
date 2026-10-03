@@ -48,9 +48,9 @@ export default function OurWorkPage() {
             holidays designed to support recovery.
           </p>
           <p>
-            Sue has explained that wider UK veterans-centre work may be
-            possible in future, but local volunteer coverage is not currently
-            in place.
+            Wider support in the UK depends on having qualified volunteers in
+            the right locations and opportunities that match the charity&apos;s
+            skills.
           </p>
           <ButtonLink href={ukSupport.href} variant="secondary">
             Read about current UK support
@@ -75,8 +75,8 @@ export default function OurWorkPage() {
             partners help assistance reach the communities that need it.
           </p>
           <p>
-            Details of current locations, schedules and partnerships will be
-            checked with the charity before this prototype is published.
+            Every activity is shaped around current needs, trusted local
+            relationships and the volunteers available to help.
           </p>
         </div>
       </section>

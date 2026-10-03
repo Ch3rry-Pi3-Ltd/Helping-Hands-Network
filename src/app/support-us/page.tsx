@@ -3,7 +3,6 @@ import { FundraisingPromotion } from "@/components/fundraising-promotion";
 import { HeartIcon } from "@/components/icons";
 import { PageHeader } from "@/components/page-header";
 import { SectionHeading } from "@/components/section-heading";
-import { StatusNote } from "@/components/status-note";
 import {
   fundraisingDestinations,
   siteConfig,
@@ -66,7 +65,7 @@ export default function SupportPage() {
                   </span>
                   <h2>{route.title}</h2>
                   <p>{route.description}</p>
-                  <StatusNote>{route.status}</StatusNote>
+                  <p className="support-route-note">{route.status}</p>
                   <ButtonLink
                     href={route.href}
                     external={external}
@@ -86,7 +85,7 @@ export default function SupportPage() {
           <SectionHeading
             eyebrow="Featured fundraising partners"
             title="Support HHN while you play or shop"
-            intro="These verified external services provide two additional ways to raise funds. Scan a code from another device or use the accessible links provided."
+            intro="These external services provide two additional ways to raise funds. Use the links below, or scan a QR code when viewing this page on a larger screen."
             align="center"
           />
 
@@ -160,9 +159,8 @@ export default function SupportPage() {
             instructions or to request a Gift Aid declaration.
           </p>
           <p>
-            Older downloadable forms are being reviewed before they are
-            republished. This helps ensure supporters receive the correct
-            charity and banking information.
+            Requesting the latest information directly helps ensure you receive
+            the charity&apos;s current instructions and forms.
           </p>
           <ButtonLink
             href={`mailto:${siteConfig.email}?subject=Standing%20order%20or%20Gift%20Aid`}
@@ -178,7 +176,7 @@ export default function SupportPage() {
           <SectionHeading
             eyebrow="Fundraising ideas"
             title="Simple ways supporters could raise money"
-            intro="Sue suggested these as practical examples for supporters. The final page can be adjusted once the charity confirms preferred wording and enquiry handling."
+            intro="Choose an activity that suits you, invite others to take part and contact the charity if you would like help getting started."
             align="center"
           />
           <div className="support-grid">

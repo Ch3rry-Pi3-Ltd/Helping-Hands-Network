@@ -97,7 +97,7 @@ export default function AboutPage() {
           <SectionHeading
             eyebrow="Our work today"
             title="One mission, two principal areas of work"
-            intro="Sue has confirmed the charity's principal active work is now Bosnia and Herzegovina and Ukraine aid. Current UK support continues through military FABCAMPS, but is not presented as a full third programme."
+            intro="The charity's principal areas of work are Bosnia and Herzegovina and Ukraine aid, alongside focused UK support through military FABCAMPS."
             align="center"
           />
           <div className="project-grid">

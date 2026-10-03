@@ -372,6 +372,7 @@ h3 {
 
 .hero-media {
   position: relative;
+  width: 100%;
   padding: 20px 0 58px 28px;
 }
 
@@ -999,29 +1000,6 @@ h3 {
   gap: clamp(40px, 8vw, 110px);
 }
 
-.status-note {
-  display: flex;
-  align-items: flex-start;
-  gap: 10px;
-  margin-top: 24px;
-  padding: 13px 15px;
-  color: #5b512f !important;
-  background: #fff8dc;
-  border: 1px solid #e8d98d;
-  border-radius: 10px;
-  font-size: 0.82rem;
-  line-height: 1.45;
-}
-
-.status-note span {
-  width: 8px;
-  height: 8px;
-  flex: 0 0 auto;
-  margin-top: 5px;
-  background: #b07d15;
-  border-radius: 50%;
-}
-
 .ukraine-layout {
   display: grid;
   grid-template-columns: 0.95fr 1.05fr;
@@ -1162,14 +1140,19 @@ h3 {
   font-size: 2rem;
 }
 
-.support-card > p:not(.status-note) {
+.support-card > p:not(.support-route-note) {
   color: var(--muted);
 }
 
-.support-card .status-note {
+.support-route-note {
   width: 100%;
+  padding-top: 16px;
   margin-top: auto;
   margin-bottom: 24px;
+  color: var(--teal) !important;
+  border-top: 1px solid var(--line);
+  font-size: 0.82rem;
+  font-weight: 800;
 }
 
 .fundraising-promotion-grid {
@@ -1834,8 +1817,7 @@ h3 {
   }
 
   .fundraising-qr {
-    width: min(100%, 240px);
-    justify-self: center;
+    display: none;
   }
 
   .footer-bottom {

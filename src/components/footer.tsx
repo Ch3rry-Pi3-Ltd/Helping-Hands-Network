@@ -66,8 +66,6 @@ export function Footer() {
         <p>© {new Date().getFullYear()} Healing Hands Network</p>
         <p>
           <Link href="/privacy">Privacy</Link>
-          <span aria-hidden="true"> · </span>
-          Parallel website prototype — content subject to charity approval.
         </p>
       </div>
     </footer>

@@ -3,7 +3,6 @@ import { CtaBand } from "@/components/cta-band";
 import { HandsIcon, HeartIcon } from "@/components/icons";
 import { PageHeader } from "@/components/page-header";
 import { SectionHeading } from "@/components/section-heading";
-import { StatusNote } from "@/components/status-note";
 import { siteConfig } from "@/content/site";
 import { createMetadata } from "@/lib/metadata";
 
@@ -67,11 +66,6 @@ export default function VolunteerPage() {
               </ul>
             </article>
           </div>
-          <StatusNote>
-            Membership fees, application forms, current opportunities and
-            detailed eligibility criteria still need charity confirmation
-            before launch.
-          </StatusNote>
         </div>
       </section>
 
@@ -100,7 +94,8 @@ export default function VolunteerPage() {
               <span>3</span>
               <h3>Prepare together</h3>
               <p>
-                Complete the current application and any relevant induction.
+                The charity will explain any current application, membership
+                and induction requirements.
               </p>
             </li>
           </ol>

@@ -1,7 +1,6 @@
 import { ButtonLink } from "@/components/button-link";
-import { MailIcon, MapPinIcon, PhoneIcon } from "@/components/icons";
+import { MailIcon, PhoneIcon } from "@/components/icons";
 import { PageHeader } from "@/components/page-header";
-import { StatusNote } from "@/components/status-note";
 import { siteConfig } from "@/content/site";
 import { createMetadata } from "@/lib/metadata";
 
@@ -38,8 +37,8 @@ export default function ContactPage() {
             <p className="card-kicker">Admin support</p>
             <h2>Admin enquiries</h2>
             <p>
-              Sue has supplied a separate admin-support contact for enquiries
-              that need practical follow-up.
+              Use the admin-support inbox for enquiries that need practical
+              follow-up.
             </p>
             <a href={`mailto:${siteConfig.adminSupportEmail}`}>
               {siteConfig.adminSupportEmail}
@@ -56,17 +55,6 @@ export default function ContactPage() {
             </a>
           </article>
 
-          <article className="contact-card">
-            <MapPinIcon />
-            <p className="card-kicker">Post</p>
-            <h2>Write to us</h2>
-            <address>
-              {siteConfig.address.map((line) => (
-                <span key={line}>{line}</span>
-              ))}
-            </address>
-          </article>
-
           <article className="contact-card contact-card-soft">
             <p className="card-kicker">Not sure where to start?</p>
             <h2>Use the general inbox</h2>
@@ -78,13 +66,6 @@ export default function ContactPage() {
               Email Healing Hands
             </ButtonLink>
           </article>
-        </div>
-        <div className="site-container contact-note">
-          <StatusNote>
-            Phone number updated from Sue&apos;s latest feedback. Postal address
-            and preferred enquiry routing should still be confirmed before
-            final launch.
-          </StatusNote>
         </div>
       </section>
     </>

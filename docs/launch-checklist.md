@@ -3,7 +3,7 @@
 This is the authoritative list of completed and outstanding work for the
 Healing Hands Network website prototype.
 
-Last reviewed: 22 August 2026.
+Last reviewed: 3 October 2026.
 
 ## Status key
 
@@ -19,7 +19,7 @@ Last reviewed: 22 August 2026.
 - [x] Create the main pages: Home, About, Our Work, Bosnia and Herzegovina,
       Ukraine, current UK support, Volunteer, Support Us, Updates and Contact.
 - [x] Create shared navigation, footer, headings, cards, calls to action,
-      buttons, icons and status-note components.
+      buttons and icons.
 - [x] Keep shared navigation, contact, project and support content in a local
       structured content file.
 - [x] Add page metadata, canonical URLs, Open Graph metadata, `robots.txt` and
@@ -106,17 +106,17 @@ These items turn the approved prototype into the version proposed for launch.
       programme information and image permissions listed above.
 - [ ] Update `src/content/site.ts` with confirmed contact details and support
       routes.
-- [ ] Replace affected yellow status notes with approved programme and
-      volunteer details.
+- [x] Remove yellow internal review notes from the public pages and retain
+      unresolved approval items in the project documentation.
 - [ ] Add approved updates to the Updates page.
 - [ ] Add approved forms or links using an agreed maintainable publishing
       approach.
 - [ ] Perform a final stakeholder copy review for the mission, programme
       descriptions, testimonials and calls to action.
-- [ ] Remove all public-facing confirmation notes once their underlying items
-      are resolved.
-- [ ] Remove the prototype wording from the footer when the content is approved
-      for launch.
+- [x] Remove public-facing confirmation notes and references to individual
+      reviewers from visitor-facing copy.
+- [x] Remove prototype wording from the public footer and privacy-page
+      introduction.
 - [ ] Produce a release candidate and repeat the complete accessibility, link,
       mobile and production-build checks against it.
 
@@ -127,6 +127,8 @@ These items turn the approved prototype into the version proposed for launch.
 - [x] Run `npm run typecheck`.
 - [x] Run `npm run build` using the intended production environment value.
 - [x] Test all pages at mobile, tablet and desktop widths.
+- [x] Add a mobile regression check that ensures the homepage hero photograph
+      retains a usable width and height.
 - [x] Test navigation, links and controls using only a keyboard.
 - [x] Check visible focus states, heading order, landmarks, colour contrast and
       screen-reader names.

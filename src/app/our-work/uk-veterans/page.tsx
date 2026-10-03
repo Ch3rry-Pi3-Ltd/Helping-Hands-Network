@@ -4,7 +4,6 @@ import { CtaBand } from "@/components/cta-band";
 import { PageHeader } from "@/components/page-header";
 import { QuoteCard } from "@/components/quote-card";
 import { SectionHeading } from "@/components/section-heading";
-import { StatusNote } from "@/components/status-note";
 import { createMetadata } from "@/lib/metadata";
 
 export const metadata = createMetadata(
@@ -33,8 +32,8 @@ export default function UKVeteransPage() {
               title="A focused UK commitment"
             />
             <p className="lead">
-              Sue has confirmed that Healing Hands Network has little or no
-              wider UK veterans work at present, following Covid.
+              Healing Hands Network&apos;s current UK support is centred on
+              military families attending FABCAMPS residential weeks.
             </p>
             <p>
               The charity currently attends and helps at military charity
@@ -46,10 +45,6 @@ export default function UKVeteransPage() {
               Healing Hands Network provides free therapies to guests during
               those weeks.
             </p>
-            <StatusNote>
-              Confirm approved FABCAMPS wording, image choice and whether this
-              page should remain separate before final launch.
-            </StatusNote>
           </div>
           <div className="editorial-image editorial-image-tall">
             <Image
@@ -79,7 +74,7 @@ export default function UKVeteransPage() {
       <CtaBand
         eyebrow="Therapists needed"
         title="Future UK opportunities depend on local volunteer coverage."
-        text="Sue has contacts at veteran support centres, monthly groups and veterans' cafés, but local members would be needed before that work could restart."
+        text="Qualified therapists can get in touch to discuss current needs and where their skills may be most useful."
       >
         <ButtonLink href="/volunteer" variant="light">
           Learn about volunteering

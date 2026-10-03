@@ -4,7 +4,6 @@ import { CtaBand } from "@/components/cta-band";
 import { PageHeader } from "@/components/page-header";
 import { QuoteCard } from "@/components/quote-card";
 import { SectionHeading } from "@/components/section-heading";
-import { StatusNote } from "@/components/status-note";
 import { testimonials } from "@/content/site";
 import { createMetadata } from "@/lib/metadata";
 
@@ -44,15 +43,9 @@ export default function BosniaPage() {
               space and help improve wellbeing.
             </p>
             <p>
-              Each season, local associations refer members who are most in
-              need of support. Sue has identified these as the Concentration
-              Camp Union, Civil War Victims, Women Victims of War and Mothers
-              of Srebrenica.
+              Each season, local associations help identify people who may
+              benefit most from the support available.
             </p>
-            <StatusNote>
-              Confirm exact association names, spelling and publication
-              approval before final launch.
-            </StatusNote>
           </div>
           <div className="editorial-image editorial-image-tall">
             <Image

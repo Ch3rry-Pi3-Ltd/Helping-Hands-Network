@@ -2,7 +2,6 @@ import { ButtonLink } from "@/components/button-link";
 import { CtaBand } from "@/components/cta-band";
 import { PageHeader } from "@/components/page-header";
 import { SectionHeading } from "@/components/section-heading";
-import { StatusNote } from "@/components/status-note";
 import { createMetadata } from "@/lib/metadata";
 
 export const metadata = createMetadata(
@@ -40,26 +39,14 @@ export default function UkrainePage() {
               collecting and delivering practical aid.
             </p>
             <p>
-              The current public website describes ambulances and SUVs being
-              used for evacuation, transporting injured and elderly people,
-              and taking urgent supplies to areas affected by destruction and
-              bombing.
+              Vehicles can support evacuation, transport injured and elderly
+              people, and help urgent supplies reach communities affected by
+              the conflict.
             </p>
             <p>
-              It names StaySafeUA, a Ukrainian volunteer NGO, and UK to Ukraine
-              as collaborators helping assistance reach communities across the
-              country.
+              The charity also collects medical, surgical and humanitarian
+              supplies requested through its network of trusted partners.
             </p>
-            <p>
-              Sue has advised that each Ukraine delivery trip, carrying
-              surgical, medical and humanitarian aid, generators and related
-              supplies, costs approximately £1,600.
-            </p>
-            <StatusNote>
-              Confirm current partner names, delivery activity, campaign
-              priorities and whether the approximate £1,600 trip cost should
-              be used in prominent fundraising copy before launch.
-            </StatusNote>
           </div>
         </div>
       </section>
@@ -96,15 +83,6 @@ export default function UkrainePage() {
                 damaged homes and disrupted services.
               </p>
             </article>
-            <article>
-              <span>04</span>
-              <h3>Amazon wishlist</h3>
-              <p>
-                Sue has confirmed there is an Amazon wishlist, but it needs to
-                be checked for current items, availability and prices before it
-                is promoted.
-              </p>
-            </article>
           </div>
         </div>
       </section>
@@ -112,7 +90,7 @@ export default function UkrainePage() {
       <CtaBand
         eyebrow="Ukraine appeal"
         title="Help practical aid keep moving."
-        text="View the charity's public fundraising routes, each clearly marked for confirmation before launch."
+        text="Choose from the charity's current public fundraising routes and help practical support reach people affected by war."
       >
         <ButtonLink href="/support-us" variant="light">
           See donation options

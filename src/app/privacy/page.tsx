@@ -14,7 +14,7 @@ export default function PrivacyPage() {
       <PageHeader
         eyebrow="Privacy"
         title="Your privacy on this website"
-        intro="A plain-English explanation of the limited information collected by this website prototype."
+        intro="A plain-English explanation of the limited information collected by this website."
       />
 
       <section className="section">
@@ -59,7 +59,7 @@ export default function PrivacyPage() {
             <a href={`mailto:${siteConfig.email}`}>{siteConfig.email}</a>.
           </p>
 
-          <p className="legal-updated">Last updated: 4 July 2026.</p>
+          <p className="legal-updated">Last updated: 3 October 2026.</p>
         </div>
       </section>
     </>

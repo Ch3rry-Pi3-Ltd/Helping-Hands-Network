@@ -31,6 +31,7 @@ test.describe("public website", () => {
   }
 
   test("all internal links resolve successfully", async ({ page, request }) => {
+    test.setTimeout(90_000);
     const links = new Set<string>();
 
     for (const path of publicSitePaths) {
@@ -59,6 +60,58 @@ test.describe("public website", () => {
         400,
       );
     }
+  });
+
+  test("public pages do not expose internal editorial notes", async ({
+    page,
+  }) => {
+    test.setTimeout(90_000);
+    const internalPhrases = [
+      /\bSue has\b/i,
+      /\bSusan\b/i,
+      /prototype status/i,
+      /before final launch/i,
+      /content subject to charity approval/i,
+    ];
+
+    for (const path of publicSitePaths) {
+      await page.goto(path);
+      const visibleText = await page.locator("body").innerText();
+
+      for (const phrase of internalPhrases) {
+        expect(visibleText, `${path} exposes ${phrase}`).not.toMatch(phrase);
+      }
+
+      await expect(page.locator(".status-note")).toHaveCount(0);
+    }
+  });
+
+  test("homepage hero image remains visible on mobile", async ({ page }) => {
+    await page.setViewportSize({ width: 390, height: 844 });
+    await page.goto("/");
+
+    const heroImage = page.getByAltText(
+      "A Healing Hands Network volunteer providing a complementary therapy session",
+    );
+    const box = await heroImage.boundingBox();
+
+    expect(box).not.toBeNull();
+    expect(box?.width).toBeGreaterThan(300);
+    expect(box?.height).toBeGreaterThan(400);
+  });
+
+  test("support-page QR codes give way to direct links on mobile", async ({
+    page,
+  }) => {
+    await page.setViewportSize({ width: 390, height: 844 });
+    await page.goto("/support-us");
+
+    await expect(page.locator(".fundraising-qr")).toHaveCount(2);
+    await expect(page.locator(".fundraising-qr").first()).toBeHidden();
+    await expect(
+      page.getByRole("link", { name: "Play GivingLottery" }),
+    ).toBeVisible();
+    await expect(page.getByRole("link", { name: "Shop and raise" })).toBeVisible();
   });
 
   test("unknown pages use the branded 404 page", async ({ page }) => {

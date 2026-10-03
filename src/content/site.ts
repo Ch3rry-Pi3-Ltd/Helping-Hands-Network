@@ -9,13 +9,6 @@ export const siteConfig = {
   email: "healinghandsnetwork@gmail.com",
   adminSupportEmail: "emmahhn1@gmail.com",
   phone: "07734 462000",
-  address: [
-    "Healing Hands Network",
-    "151 Fillongley Road",
-    "Meriden",
-    "Coventry",
-    "CV7 7LT",
-  ],
   facebook: "https://www.facebook.com/healinghandsnetwork",
   url: process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000",
 };
