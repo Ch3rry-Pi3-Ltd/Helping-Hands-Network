@@ -1669,7 +1669,7 @@ h3 {
   }
 
   .hero-media {
-    max-width: 680px;
+    inline-size: min(100%, 680px);
     padding-left: 0;
     margin-inline: auto;
   }
