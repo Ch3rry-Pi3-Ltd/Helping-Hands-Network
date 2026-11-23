@@ -23,15 +23,19 @@ Last reviewed: 23 November 2026.
       social-sharing description to keep future edits consistent.
 - [x] Correct the Contact page's search description to say email or phone;
       no postal address is currently displayed.
-- [ ] Correct the preview hostname: the existing reachable address is still
-      `helping-hands-network.vercel.app`. The proposed
-      `healing-hands-network.vercel.app` returned Vercel's deployment-not-found
-      response during this audit and must not be advertised as working yet.
-      Vercel project access/authentication is currently unavailable. Once
-      restored, attach the corrected address to the existing project, keep
-      previously shared links usable, update `NEXT_PUBLIC_SITE_URL` and the
-      CI build URL, redeploy, and verify canonicals, sharing URLs, robots and
-      sitemap before updating current documentation links.
+- [x] Correct the preview hostname to `healing-hands-network.vercel.app`.
+      After Roger restored Vercel CLI access, add the verified domain to the
+      existing project so it follows future production deployments. Retain
+      `helping-hands-network.vercel.app` for previously shared links.
+- [x] Update `NEXT_PUBLIC_SITE_URL` in Production, Preview and Development and
+      the CI build URL, then redeploy using the corrected spelling.
+- [x] Verify all eleven public pages return HTTP 200 at the corrected address;
+      canonical URLs, Open Graph page/image URLs, Twitter-card image URLs,
+      `robots.txt` and all eleven sitemap entries use the corrected address.
+      Confirm the old homepage, Support Us and Bosnia links remain reachable,
+      and the mobile homepage retains its photograph without horizontal
+      overflow. GitHub build, type, lint and browser checks passed for
+      implementation commit `6558541`.
 - [ ] The GitHub repository still has the historical name
       `Helping-Hands-Network`; do not rewrite Git remotes or historical records
       without an actual repository rename. It does not supply public page copy.
