@@ -192,7 +192,7 @@ export default function Home() {
         text="Your support helps volunteers reach people living with the lasting effects of war."
       >
         <ButtonLink href="/support-us" variant="light">
-          Support Healing Hands
+          Support {siteConfig.name}
         </ButtonLink>
         <ButtonLink href="/contact" variant="secondary">
           Talk to us

@@ -27,7 +27,7 @@ export function createMetadata(
           url: "/images/logo.png",
           width: 600,
           height: 502,
-          alt: "Healing Hands Network logo",
+          alt: `${siteConfig.name} logo`,
         },
       ],
     },

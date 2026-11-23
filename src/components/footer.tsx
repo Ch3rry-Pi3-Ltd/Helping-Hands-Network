@@ -9,7 +9,7 @@ export function Footer() {
         <div className="footer-intro">
           <Link href="/" className="footer-brand">
             <Image src="/images/logo.png" alt="" width={58} height={49} quality={60} />
-            <span>Healing Hands Network</span>
+            <span>{siteConfig.name}</span>
           </Link>
           <p>{siteConfig.mission}</p>
           <p className="charity-number">
@@ -63,7 +63,7 @@ export function Footer() {
         </div>
       </div>
       <div className="site-container footer-bottom">
-        <p>© {new Date().getFullYear()} Healing Hands Network</p>
+        <p>© {new Date().getFullYear()} {siteConfig.name}</p>
         <p>
           <Link href="/privacy">Privacy</Link>
         </p>

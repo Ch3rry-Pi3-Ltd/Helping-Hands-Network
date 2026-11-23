@@ -3,12 +3,42 @@
 This is the authoritative list of completed and outstanding work for the
 Healing Hands Network website prototype.
 
-Last reviewed: 3 October 2026.
+Last reviewed: 23 November 2026.
 
 ## Status key
 
 - `[x]` Completed in the prototype.
 - `[ ]` Outstanding or awaiting confirmation.
+
+## Naming audit — 23 November 2026
+
+- [x] Inspect all eleven live public pages and the not-found page, including
+      visible wording, navigation, link labels, image alternatives, accessible
+      labels, page titles, sharing metadata, email subjects and QR destinations.
+- [x] Confirm that the pages use **Healing Hands Network** rather than
+      **Helping Hands**. Programme and fundraising names agree with the
+      currently recorded charity feedback and destination URLs.
+- [x] Use the full charity name on the homepage support button and Contact
+      email button. Reuse `siteConfig.name` for footer branding and the logo's
+      social-sharing description to keep future edits consistent.
+- [x] Correct the Contact page's search description to say email or phone;
+      no postal address is currently displayed.
+- [ ] Correct the preview hostname: the existing reachable address is still
+      `helping-hands-network.vercel.app`. The proposed
+      `healing-hands-network.vercel.app` returned Vercel's deployment-not-found
+      response during this audit and must not be advertised as working yet.
+      Vercel project access/authentication is currently unavailable. Once
+      restored, attach the corrected address to the existing project, keep
+      previously shared links usable, update `NEXT_PUBLIC_SITE_URL` and the
+      CI build URL, redeploy, and verify canonicals, sharing URLs, robots and
+      sitemap before updating current documentation links.
+- [ ] The GitHub repository still has the historical name
+      `Helping-Hands-Network`; do not rewrite Git remotes or historical records
+      without an actual repository rename. It does not supply public page copy.
+
+Roger confirmed that the website is still a preview; the main charity domain
+has not been connected. The source emails, dated audits and AGM PDFs retain
+the URLs used at the time and should not be silently rewritten as history.
 
 ## Prototype implementation
 

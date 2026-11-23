@@ -6,7 +6,7 @@ import { createMetadata } from "@/lib/metadata";
 
 export const metadata = createMetadata(
   "Contact",
-  "Contact Healing Hands Network by email, phone or post.",
+  "Contact Healing Hands Network by email or phone.",
   "/contact",
 );
 
@@ -63,7 +63,7 @@ export default function ContactPage() {
               or “Ukraine aid” so your message can be directed quickly.
             </p>
             <ButtonLink href={`mailto:${siteConfig.email}`}>
-              Email Healing Hands
+              Email {siteConfig.name}
             </ButtonLink>
           </article>
         </div>
