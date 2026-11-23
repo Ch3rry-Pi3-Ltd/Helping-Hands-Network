@@ -14,7 +14,7 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 15
     env:
-      NEXT_PUBLIC_SITE_URL: https://helping-hands-network.vercel.app
+      NEXT_PUBLIC_SITE_URL: https://healing-hands-network.vercel.app
 
     steps:
       - name: Check out repository

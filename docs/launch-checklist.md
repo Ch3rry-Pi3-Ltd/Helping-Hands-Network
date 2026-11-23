@@ -183,7 +183,11 @@ These items turn the approved prototype into the version proposed for launch.
 ## Git and Vercel preview
 
 Current Vercel URL:
-[helping-hands-network.vercel.app](https://helping-hands-network.vercel.app/).
+[healing-hands-network.vercel.app](https://healing-hands-network.vercel.app/).
+
+The previous `helping-hands-network.vercel.app` preview address is retained for
+backwards compatibility. Both addresses serve the same project. This does not
+connect or launch the charity's main domain.
 
 - [x] Put the project in an approved Git repository.
 - [x] Import that repository into Vercel using the Next.js framework preset.

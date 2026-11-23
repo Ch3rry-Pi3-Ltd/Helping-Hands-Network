@@ -4,6 +4,11 @@ A separate, modern website prototype for Healing Hands Network. It is built with
 
 This project does not connect to or modify the current WordPress website, hosting, DNS, email or payment systems.
 
+Current preview: [healing-hands-network.vercel.app](https://healing-hands-network.vercel.app/).
+The former `helping-hands-network.vercel.app` address remains available for
+previously shared links. This is a preview address, not the charity's main
+domain launch.
+
 ## Local development
 
 Requirements:

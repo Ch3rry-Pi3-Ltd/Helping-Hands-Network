@@ -3,7 +3,11 @@
 Reviewed: 7 July 2026.
 
 Prototype link:
-[https://helping-hands-network.vercel.app/](https://helping-hands-network.vercel.app/)
+[https://healing-hands-network.vercel.app/](https://healing-hands-network.vercel.app/)
+
+Preview link updated on 23 November 2026. The previous preview address still
+works; the rest of this pack records the earlier July review stage. For current
+implementation and outstanding work, see the [launch checklist](launch-checklist.md).
 
 This pack is written for Susan and the Healing Hands Network trustees. It
 explains what has been prepared, what is still draft and what feedback would
